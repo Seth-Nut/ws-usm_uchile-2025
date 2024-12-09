@@ -197,7 +197,7 @@
     "href": "material/talleres/taller_2.html",
     "title": "Más Allá del Infinito",
     "section": "",
-    "text": "Introducción al Infinito\nEn este capítulo, vamos a explorar las fascinantes ideas del infinito en matemáticas, desde la cardinalidad de conjuntos hasta el famoso Hotel de Hilbert. Este taller combina historias, visualizaciones y ejercicios interactivos para aprender de manera entretenida y accesible.\n🎯 Objetivos del Taller\nEl infinito es una idea abstracta que desafía nuestra intuición. Aunque no es un número, representa algo que no tiene fin, como las secuencias de números o las líneas infinitas.",
+    "text": "Introducción al Infinito\nEn este capítulo, vamos a explorar las fascinantes ideas del infinito en matemáticas, desde la cardinalidad de conjuntos hasta el famoso Hotel de $. Este taller combina historias, visualizaciones y ejercicios interactivos para aprender de manera entretenida y accesible.\n🎯 Objetivos del Taller\nEl infinito es una idea abstracta que desafía nuestra intuición. Aunque no es un número, representa algo que no tiene fin, como las secuencias de números o las líneas infinitas.",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Más Allá del Infinito</span>"
@@ -230,7 +230,7 @@
     "href": "material/talleres/taller_2.html#historia-de-los-números-infinitos",
     "title": "Más Allá del Infinito",
     "section": "Historia de los Números Infinitos",
-    "text": "Historia de los Números Infinitos\n\n\nEl Apeiron de Anaximandro: Primer concepto filosófico del infinito como lo ilimitado, origen y fin de todo.\n\nLas Paradojas de Zenón: Cuestionan la continuidad y el movimiento mediante ideas como “Aquiles y la tortuga”.\n\nLos Infinitos de Aristóteles: Distinción entre infinito potencial (proceso) e infinito actual (cantidad).\n\nPerspectivas Teológicas Medievales: Exploran el infinito en relación con Dios como ser eterno e ilimitado.\n\nObservaciones de Galileo: Paradojas que revelan propiedades inesperadas del infinito, como los cuadrados de números naturales.\n\nCálculo de Newton y Leibniz: Uso de límites e infinitesimales para describir procesos infinitos en matemáticas.\n\nTeoría de Conjuntos de Cantor: Diferentes tamaños de infinito (contable y no contable) que revolucionaron las matemáticas.\n\nEl Hotel de Hilbert: Paradoja que muestra las propiedades contraintuitivas del infinito mediante un hotel con infinitas habitaciones.\n\nAplicaciones Modernas: Uso práctico del infinito en física, matemáticas y tecnología, como en la relatividad y el análisis.",
+    "text": "Historia de los Números Infinitos\n\n\nEl Apeiron de Anaximandro: Primer concepto filosófico del infinito como lo ilimitado, origen y fin de todo.\n\nLas Paradojas de Zenón: Cuestionan la continuidad y el movimiento mediante ideas como “Aquiles y la tortuga”.\n\nLos Infinitos de Aristóteles: Distinción entre infinito potencial (proceso) e infinito actual (cantidad).\n\nPerspectivas Teológicas Medievales: Exploran el infinito en relación con Dios como ser eterno e ilimitado.\n\nObservaciones de Galileo: Paradojas que revelan propiedades inesperadas del infinito, como los cuadrados de números naturales.\n\nCálculo de Newton y Leibniz: Uso de límites e infinitesimales para describir procesos infinitos en matemáticas.\n\nTeoría de Conjuntos de Cantor: Diferentes tamaños de infinito (contable y no contable) que revolucionaron las matemáticas.\n\nEl Hotel de $: Paradoja que muestra las propiedades contraintuitivas del infinito mediante un hotel con infinitas habitaciones.\n\nAplicaciones Modernas: Uso práctico del infinito en física, matemáticas y tecnología, como en la relatividad y el análisis.",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Más Allá del Infinito</span>"
@@ -263,7 +263,7 @@
     "href": "material/talleres/taller_2.html#números-naturales",
     "title": "Más Allá del Infinito",
     "section": "Números Naturales",
-    "text": "Números Naturales\n\n\n\n\n\nNúmeros Naturales \\(\\mathbb{N}\\): Incluye \\(\\{0, 1, 2, 3, \\dots\\}\\), un conjunto infinito porque siempre se puede sumar 1 para obtener un número nuevo.\n\nSubconjuntos Infinitos:\n\nPares (\\(\\{2, 4, 6, \\dots\\}\\)): Números divisibles por 2, infinitos porque siempre puedes sumar 2.\nImpares (\\(\\{1, 3, 5, \\dots\\}\\)): Números no divisibles por 2, también infinitos.\nPrimos (\\(\\{2, 3, 5, 7, \\dots\\}\\)): Números mayores que 1 con solo dos divisores, demostrados como infinitos por Euclides.\n\n\nEstos subconjuntos muestran que dentro de un infinito hay infinitos más pequeños.",
+    "text": "Números Naturales\n\n\n\n\n\nNúmeros Naturales \\(\\mathbb{N}\\):\nIncluye \\(\\{0, 1, 2, 3, \\dots\\}\\), un conjunto infinito porque siempre se puede sumar 1 para obtener un número nuevo.\n\nSubconjuntos Infinitos:\n\nPares (\\(\\{2, 4, 6, \\dots\\}\\)): Números divisibles por 2, infinitos porque siempre puedes sumar 2.\nImpares (\\(\\{1, 3, 5, \\dots\\}\\)): Números no divisibles por 2, también infinitos.\nPrimos (\\(\\{2, 3, 5, 7, \\dots\\}\\)): Números mayores que 1 con solo dos divisores, demostrados como infinitos por Euclides.\n\n\nEstos subconjuntos muestran que dentro de un infinito hay infinitos más pequeños.",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Más Allá del Infinito</span>"
@@ -286,6 +286,61 @@
     "title": "Más Allá del Infinito",
     "section": "Contemos los números enteros",
     "text": "Contemos los números enteros\n\n\nImagen 1\n\n\n\n\n\nImagen 2\n\n\n\n\n\nImagen 3\n\n\n\n\n\nImagen 4\n\n\n\nEsto significa que \\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}| }}\\), es decir, que los números naturales (\\(\\mathbb{N}\\)) y los números enteros (\\(\\mathbb{Z}\\)) tienen la misma cardinalidad. Por lo tanto, ambos son infinitos contables.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Más Allá del Infinito</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_2.html#números-racionales",
+    "href": "material/talleres/taller_2.html#números-racionales",
+    "title": "Más Allá del Infinito",
+    "section": "Números Racionales",
+    "text": "Números Racionales\n\n\n\n\n\nNúmeros Racionales (\\(\\mathbb{Q}\\)):\nIncluye \\(\\mathbb{Q} = \\left\\{ \\frac{p}{q} \\mid p, q \\in \\mathbb{Z}, q \\neq 0 \\right\\}\\), el conjunto de fracciones donde \\(p\\) es un numerador y \\(q\\) es un denominador distinto de cero. Este conjunto es infinito porque siempre se pueden generar nuevas fracciones al variar \\(p\\) y \\(q\\).\n\nSubconjuntos Infinitos de \\(\\mathbb{Q}\\):\n\nFracciones Positivas (\\(\\mathbb{Q}^+\\)): Fracciones mayores que 0, por ejemplo,\n\\[\n\\mathbb{Q}^+ = \\left\\{ \\frac{1}{2}, \\frac{2}{3}, \\frac{3}{4}, \\dots \\right\\}.\n\\]\nFracciones Negativas (\\(\\mathbb{Q}^-\\)): Fracciones menores que 0, como\n\\[\n\\mathbb{Q}^- = \\left\\{ -\\frac{1}{2}, -\\frac{2}{3}, -\\frac{3}{4}, \\dots \\right\\}.\n\\]\nFracciones Reducidas: Subconjunto infinito donde el numerador y el denominador son primos relativos (no comparten divisores). Por ejemplo:\n\\[\n\\left\\{ \\frac{1}{2}, \\frac{2}{3}, \\frac{3}{5}, \\dots \\right\\}.\n\\]\nMúltiplos de una fracción (\\(k\\mathbb{Q}\\)): Fracciones multiplicadas por un número fijo \\(k\\). Por ejemplo, para \\(k = 2\\):\n\\[\n2\\mathbb{Q} = \\left\\{ \\dots, -2, -1, 0, 1, 2, \\dots \\right\\}.\n\\]",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Más Allá del Infinito</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_2.html#contemos-los-números-racionales",
+    "href": "material/talleres/taller_2.html#contemos-los-números-racionales",
+    "title": "Más Allá del Infinito",
+    "section": "Contemos los números racionales",
+    "text": "Contemos los números racionales\n\n\nImagen 1\n\n\n\n\n\nImagen 2\n\n\n\n\n\nImagen 3\n\n\n\nEsto significa que \\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| }}\\), es decir, los números naturales (\\(\\mathbb{N}\\)), enteros (\\(\\mathbb{Z}\\)) y racionales (\\(\\mathbb{Q}\\)) tienen la misma cardinalidad. Aunque \\(\\mathbb{Q}\\) incluye fracciones además de enteros, es posible enumerarlos, por lo que todos son infinitos contables, representados por \\(\\aleph_0\\).\n\nNúmeros Reales\n\n\n\n\n\nNúmeros Reales (\\(\\mathbb{R}\\)):\nIncluye tanto números racionales (\\(\\mathbb{Q}\\)) como irracionales (\\(\\pi, \\sqrt{2}, e, \\dots\\)). Es un conjunto infinito, pero su cardinalidad es mayor que la de los números naturales (\\(\\mathbb{N}\\)).\n\nCaracterísticas:\n\nContiene números racionales (fracciones) e irracionales (no expresables como fracciones).\nEs un conjunto continuo, con infinitos números entre cualquier par de números reales.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Más Allá del Infinito</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_2.html#contemos-los-números-irracionales",
+    "href": "material/talleres/taller_2.html#contemos-los-números-irracionales",
+    "title": "Más Allá del Infinito",
+    "section": "Contemos los números irracionales",
+    "text": "Contemos los números irracionales\n\n\n\n\n\nEn 1891, Georg Cantor demostró que no es posible enumerar todos los números reales en el intervalo \\((0, 1)\\) usando su argumento de la diagonalización. Esto significa que los números reales son un conjunto infinito no contable, un tipo de infinito más “grande” que el de los números naturales (\\(\\mathbb{N}\\)).\n\\[\\color{black}{\\boxed{\\aleph_1 = |\\mathbb{R}| &gt; |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| = \\aleph_0}}\\]",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Más Allá del Infinito</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_2.html#hotel-de-hilbert",
+    "href": "material/talleres/taller_2.html#hotel-de-hilbert",
+    "title": "Más Allá del Infinito",
+    "section": "Hotel de Hilbert",
+    "text": "Hotel de Hilbert\n\n\n\n\n\nEl Hotel de $ es una paradoja que muestra las propiedades del infinito: un hotel con infinitas habitaciones numeradas \\(1, 2, 3, \\dots\\), todas ocupadas, aún puede alojar más huéspedes. Al mover a cada huésped a la habitación siguiente, se libera espacio para nuevos huéspedes, incluso si llegan infinitos grupos. Ilustra que el infinito no se comporta como los números finitos.\n\n🐶 Bienvenidos al Hotel de Vale\n\n\n\n\n\nEl Hotel de Vale es un lugar especial con infinitas habitaciones numeradas diseñadas para perritos. Aunque todas las habitaciones estén ocupadas, siempre hay espacio para más, gracias a las propiedades únicas del infinito.\n✨ ¡Siempre hay espacio para uno más!\n\n\nCaso 1: Llega un Nuevo Perrito\n\n\n\n\n\n\nSituación: Todas las habitaciones están ocupadas por un perrito, cada uno en una habitación numerada\\(1, 2, 3, \\dots\\).\nProblema: Llega un nuevo perrito, pero el hotel parece lleno.\n\n\n\n\n\n\n\nSolución\n\n\n\n\n\nMovemos a cada perrito de la habitación \\(n\\) a la habitación \\(n+1\\), liberando la habitación 1 para el nuevo huésped.\n\n\n\n\n\n\n\n\nResultado: El nuevo perrito tiene su espacio sin necesidad de expulsar a nadie. Esto ilustra cómo los conjuntos infinitos permiten reorganizarse para hacer espacio.\n\n\nCaso 2: Llega un Bus con Infinitos Perritos\n\n\n\n\n\n\nSituación: Todas las habitaciones están ocupadas, y ahora llega un bus con infinitos perritos numerados\\(1, 2, 3, \\dots\\).\nProblema: Parece imposible acomodar a un grupo infinito de nuevos huéspedes en un hotel que ya está lleno.\n\n\n\n\n\n\n\nSolución\n\n\n\n\n\nMovemos a cada perrito que ya está en la habitación\\(n\\) a la habitación\\(2n\\), liberando todas las habitaciones impares para los nuevos huéspedes.\n\n\n\n\n\nResultado: Cada perrito del bus ocupa una habitación impar sin desalojar a los que ya estaban alojados.\n\n\n\n\n\nCaso 3: Llegan Infinitos Buses con Infinitos Perritos\n\n\n\n\n\n\nSituación: Ahora llegan infinitos buses, cada uno con infinitos perritos numerados\\(1, 2, 3, \\dots\\). Cada bus también está numerado\\(1, 2, 3, \\dots\\).\nProblema: Acomodar un número infinito de grupos infinitos en un hotel aparentemente lleno.\n\n\n\n\n\n\n\nSolución\n\n\n\n\n\nPara acomodar infinitos buses con infinitos perritos en el Hotel de Vale, usamos los números primos como base para asignar habitaciones de manera única y ordenada.\n\n\n\n\n\nCómo funciona la estrategia\n\nHabitaciones del hotel: Cada habitación del hotel es identificada por un número entero único.\nAsociación con números primos:\n\nLas habitaciones del hotel inicial se asignan usando potencias de \\(2\\):\n\\[\n\\text{Habitación para el huésped del hotel: } 2^i, \\quad i = 1, 2, 3, \\dots\n\\]\nEl primer bus usa potencias del primo siguiente, \\(3\\):\n\\[\n\\text{Habitación para el bus 1, asiento } j: 3^j, \\quad j = 1, 2, 3, \\dots\n\\]\nEl segundo bus usa potencias de \\(5\\):\n\\[\n\\text{Habitación para el bus 2, asiento } j: 5^j, \\quad j = 1, 2, 3, \\dots\n\\]\nEl tercer bus usa potencias de \\(7\\):\n\\[\n\\text{Habitación para el bus 3, asiento } j: 7^j, \\quad j = 1, 2, 3, \\dots\n\\]\n\nAsignación general:\n\nPara el bus \\(k\\), los números del primo correspondiente \\(p_k\\) se usan como base: \\[\n\\text{Habitación asignada: } p_k^j, \\quad \\text{donde } p_k \\text{ es el } k\\text{-ésimo primo, y } j \\text{ el asiento.}\n\\]\n\n\n\n\nImagen 1\n\n\n\n\n\nImagen 2\n\n\n\n\n\nImagen 3\n\n\n\nResultado: Incluso con infinitos buses y perritos, el hotel puede acomodar a todos gracias a la capacidad de reorganizar conjuntos infinitos.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Más Allá del Infinito</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_2.html#conclusiones",
+    "href": "material/talleres/taller_2.html#conclusiones",
+    "title": "Más Allá del Infinito",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n🌌 El Infinito:\nEl concepto de infinito desafía nuestra intuición y rompe con las reglas que aplicamos a los números finitos. Su estudio abre la puerta a una comprensión más profunda de las matemáticas y el universo.\n📏 Cardinalidad:\nNo todos los infinitos son iguales. A través de la cardinalidad, aprendemos que hay diferentes “tamaños” de infinito, como el infinito contable (\\(|\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}|\\)) y el infinito no contable (\\(|\\mathbb{R}|\\)).\n🐶 Hotel de Perritos:\nUn ejemplo lúdico que muestra cómo reorganizar conjuntos infinitos para hacer espacio. Nos enseña que el infinito tiene propiedades sorprendentes y no intuitivas.\n🎓 Aplicaciones del infinito:\nDesde la teoría de conjuntos y las bases del cálculo, hasta la física y la computación, el infinito juega un papel crucial en el desarrollo del conocimiento.\n🌟 Reflexión final:\nExplorar el infinito nos enseña que las matemáticas no son solo números y operaciones; también son una herramienta para entender conceptos abstractos y expandir los límites del pensamiento humano.\n\n\n🔑 Nota: Para aquellos interesados en continuar su aprendizaje, pueden visitar este sitio de recursos para acceder a material educativo adicional.",
     "crumbs": [
       "🚀 Talleres",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Más Allá del Infinito</span>"
