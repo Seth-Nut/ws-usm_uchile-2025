@@ -1,0 +1,198 @@
+# Más Allá del Infinito
+
+<center>
+<img src="../../images/infinito.png" width="500">
+</center>
+
+<br>
+
+En este capítulo, vamos a explorar las fascinantes ideas del infinito en matemáticas, desde la cardinalidad de conjuntos hasta el famoso Hotel de Hilbert. Este taller combina historias, visualizaciones y ejercicios interactivos para aprender de manera entretenida y accesible.
+
+🎯 **Objetivos del Taller**
+
+- Entender el concepto de infinito y sus aplicaciones en matemáticas.
+- Diferenciar los tamaños de infinito mediante la cardinalidad de conjuntos.
+- Resolver problemas interactivos como el Hotel Infinito de Hilbert.
+- Visualizar ideas abstractas a través de gráficos y simulaciones.
+
+
+## Introducción al Infinito
+
+El infinito es una idea abstracta que desafía nuestra intuición. Aunque no es un número, representa algo que no tiene fin, como las secuencias de números o las líneas infinitas.
+
+```{pyodide-python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+t = np.linspace(0, 2 * np.pi, 1000)
+x = np.cos(t) / (1 + np.sin(t) ** 2)
+y = (np.sin(t) * np.cos(t)) / (1 + np.sin(t) ** 2)
+
+plt.figure(figsize=(6, 3))
+plt.plot(x, y, color='purple', lw=2, label='Símbolo de Infinito')
+plt.title("Representación del Infinito")
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.show()
+```
+
+
+
+## Conjuntos de Números
+
+Analicemos el conjunto de números más conocidos:
+
+* **Naturales**:$\mathbb{N} = {0, 1, 2, 3, \dots}$
+* **Enteros**:$\mathbb{Z} = { \dots, -2, -1, 0, 1, 2, \dots }$
+* **Racionales**:$\mathbb{Q} = { \frac{1}{2}, 0.10, \dots }$
+* **Reales**:$\mathbb{R} = { \pi, \sqrt{2}, e, \dots}$
+
+
+
+En **cantidad** de elementos: ¿\|$\mathbb{N}| < |\mathbb{Z}| < |\mathbb{Q}|< |\mathbb{R}|<|\mathbb{C}|$?
+
+
+![](../../images/pa/num_05.png){.absolute top="250" left="95" width="900" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+
+
+
+
+## Historia de los Números Infinitos
+
+![](../../images/np_01.png)
+
+
+1. **El Apeiron de Anaximandro**: Primer concepto filosófico del infinito como lo ilimitado, origen y fin de todo.  
+2. **Las Paradojas de Zenón**: Cuestionan la continuidad y el movimiento mediante ideas como "Aquiles y la tortuga".  
+3. **Los Infinitos de Aristóteles**: Distinción entre infinito potencial (proceso) e infinito actual (cantidad).  
+4. **Perspectivas Teológicas Medievales**: Exploran el infinito en relación con Dios como ser eterno e ilimitado.  
+5. **Observaciones de Galileo**: Paradojas que revelan propiedades inesperadas del infinito, como los cuadrados de números naturales.  
+6. **Cálculo de Newton y Leibniz**: Uso de límites e infinitesimales para describir procesos infinitos en matemáticas.  
+7. **Teoría de Conjuntos de Cantor**: Diferentes tamaños de infinito (contable y no contable) que revolucionaron las matemáticas.  
+8. **El Hotel de Hilbert**: Paradoja que muestra las propiedades contraintuitivas del infinito mediante un hotel con infinitas habitaciones.  
+9. **Aplicaciones Modernas**: Uso práctico del infinito en física, matemáticas y tecnología, como en la relatividad y el análisis.
+
+## ¿Qué es contar?
+
+![](../../images/contar2.png){fig-align="center" width="300"}
+
+
+
+**Contar** es determinar cuántos elementos hay en un grupo o conjunto. Es una forma básica de organizar y entender cantidades.
+
+Por ejemplo:  
+
+- Si tienes **4 manzanas** en una mesa, cuentas "1, 2, 3, 4" para saber el total.  
+- En una fila de **5 personas**, puedes contar "1, 2, 3, 4, 5" para conocer cuántas hay.  
+- Si tienes una colección de **6 monedas**, dices "1, 2, 3, 4, 5, 6" para sumar todas.  
+
+
+
+
+### Fundamento en los Axiomas de Peano 
+
+![](../../images/contar.png){fig-align="center" width="300"}
+
+
+Los **Axiomas de Peano** son reglas simples que explican cómo funcionan los números naturales (0, 1, 2, 3, ...). Son como las bases para contar y hacer matemáticas. En palabras sencillas:
+
+1. **Primer número**: Todo empieza con un número inicial, que puede ser 0 o 1.
+2. **Sucesor**: Cada número tiene un siguiente (por ejemplo, después de 1 viene 2, después de 2 viene 3, y así sucesivamente).
+3. **Unicidad**: Cada número es único y no se repite.
+4. **Inducción**: Si empiezas con el primer número y sigues avanzando, puedes llegar a todos los números naturales.
+
+## Cardinalidad de un Conjunto 
+
+Se agrega un elemento al conjunto, asignado correctamente a un nuevo número.  
+
+<details>
+  <summary>Imagen 1</summary>
+  <img src="../../images/pa/img_01.png" alt="Imagen 1" style="width:700px; display: block; margin: auto;">
+</details>
+
+
+Dos elementos comparten el mismo número, rompiendo la correspondencia uno a uno.  
+
+
+<details>
+  <summary>Imagen 2</summary>
+  <img src="../../images/pa/img_02.png" alt="Imagen 2" style="width:700px; display: block; margin: auto;">
+</details>
+
+El conjunto tiene solo 4 elementos asignados a números únicos.  
+
+<details>
+  <summary>Imagen 3</summary>
+  <img src="../../images/pa/img_03.png" alt="Imagen 3" style="width:700px; display: block; margin: auto;">
+</details>
+
+Un elemento no tiene número asignado, violando la correspondencia uno a uno.  
+
+<details>
+  <summary>Imagen 4</summary>
+  <img src="../../images/pa/img_04.png" alt="Imagen 4" style="width:700px; display: block; margin: auto;">
+</details>
+
+El conjunto$A$tiene 5 elementos, cada uno asignado a un número único.  
+
+
+<details>
+  <summary>Imagen 5</summary>
+  <img src="../../images/pa/img_05.png" alt="Imagen 5" style="width:700px; display: block; margin: auto;">
+</details>
+
+## Números Naturales 
+
+![](https://youtalkonline.com/wp-content/webp-express/webp-images/uploads/Tips-para-decir-correctamente-los-n%C3%BAmeros-en-ingles-y-su-pronunciaci%C3%B3n-725x408.jpg.webp){fig-align="center" width="400"}
+
+
+**Números Naturales** $\mathbb{N}$: Incluye $\{0, 1, 2, 3, \dots\}$, un conjunto infinito porque siempre se puede sumar 1 para obtener un número nuevo.
+
+- **Subconjuntos Infinitos**:
+  1. **Pares** ($\{2, 4, 6, \dots\}$): Números divisibles por 2, infinitos porque siempre puedes sumar 2.
+  2. **Impares** ($\{1, 3, 5, \dots\}$): Números no divisibles por 2, también infinitos.
+  3. **Primos** ($\{2, 3, 5, 7, \dots\}$): Números mayores que 1 con solo dos divisores, demostrados como infinitos por Euclides.
+
+Estos subconjuntos muestran que dentro de un infinito hay infinitos más pequeños.
+
+## Números Enteros
+
+![](../../images/enteros.png){fig-align="center" width="400"}
+
+
+**Números Enteros ($\mathbb{Z}$)**:  
+  Incluye $\mathbb{Z} = \{\dots, -2, -1, 0, 1, 2, \dots\}$, un conjunto infinito porque siempre se puede sumar o restar 1 para obtener un número nuevo.
+
+- **Subconjuntos Infinitos de $\mathbb{Z}$**:  
+  1. **Positivos** ($\mathbb{Z}^+ = \{1, 2, 3, \dots\}$): Números mayores que 0, infinitos.  
+  2. **Negativos** ($\mathbb{Z}^- = \{-1, -2, -3, \dots\}$): Números menores que 0, también infinitos.  
+  3. **Múltiplos de un número** ($k\mathbb{Z} = \{\dots, -2k, -k, 0, k, 2k, \dots\}$): Por ejemplo, múltiplos de 2 ($\{\dots, -4, -2, 0, 2, 4, \dots\}$), todos infinitos.  
+
+Dentro de $\mathbb{Z}$, podemos encontrar infinitos más pequeños, pero el conjunto completo sigue siendo infinito en ambas direcciones.
+
+
+## Contemos los números enteros
+
+
+<details>
+  <summary>Imagen 1</summary>
+  <img src="../../images/pa/img_z1.png" alt="Imagen 1" style="width:500px; display: block; margin: auto;">
+</details>
+
+<details>
+  <summary>Imagen 2</summary>
+  <img src="../../images/pa/img_z2.png" alt="Imagen 2" style="width:500px; display: block; margin: auto;">
+</details>
+
+<details>
+  <summary>Imagen 3</summary>
+  <img src="../../images/pa/img_z3.png" alt="Imagen 3" style="width:500px; display: block; margin: auto;">
+</details>
+
+<details>
+  <summary>Imagen 4</summary>
+  <img src="../../images/pa/img_z4.png" alt="Imagen 4" style="width:500px; display: block; margin: auto;">
+</details>
+
+
+Esto significa que  $\color{black}{\boxed{ |\mathbb{N}| = |\mathbb{Z}| }}$, es decir, que los números naturales ($\mathbb{N}$) y los números enteros ($\mathbb{Z}$) tienen la misma cardinalidad. Por lo tanto, ambos son **infinitos contables**. 
+

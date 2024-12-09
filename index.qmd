@@ -1,0 +1,185 @@
+# 🏠 Home
+
+
+
+¡Descubre las matemáticas desde una perspectiva lúdica y creativa!
+Te invitamos a formar parte de un campamento único que combina aprendizaje, creatividad y trabajo en equipo. Durante 4 días consecutivos, jóvenes de 12 a 17 años tendrán la oportunidad de explorar conceptos matemáticos mientras desarrollan sus habilidades creativas y tecnológicas.
+
+<center>
+<img src="./images/logo_escuela.png" width="300">
+</center>
+
+## 🤔 ¿De qué se trata?
+
+Esta escuela de verano busca inspirar a estudiantes entre 7° básico y 3° medio (cursados el 2024) a través de talleres presenciales y remotos que combinan matemática, creatividad y contenido audiovisual. Inspirado en el exitoso formato de “Te lo cuento en 5 minutos”, los participantes crearán videos, infografías y collages que serán difundidos en redes sociales y sitios web.
+
+> 🔗 **Link del evento**: [Verano Matemático 2025 USM-UChile](https://sites.google.com/view/veranomatematico2025usm-uchile/informaci%C3%B3n-general?authuser=0)
+
+
+
+
+## 🍎 Actividades
+
+### **Taller 1: Matemáticas Divertidas con Python**
+
+#### 🎯 **Objetivo del Taller**
+Iniciar a los estudiantes en la programación con Python, mostrando cómo resolver problemas matemáticos de forma entretenida y visual.
+
+#### 📚 **Resultados de Aprendizaje Esperados**
+1. Conocer los conceptos básicos de programación en Python.  
+2. Resolver desafíos matemáticos sencillos, como conversiones de unidades y cálculos básicos.  
+3. Divertirse experimentando con el código para aprender matemáticas de una forma nueva y creativa.  
+
+
+### **Taller 2: Más Allá del Infinito**
+
+###### 🎯 **Objetivo del Taller**
+Motivar a los estudiantes a explorar el concepto de infinito a través de historias y actividades prácticas que despierten su curiosidad matemática.
+
+#### 📚 **Resultados de Aprendizaje Esperados**
+1. Comprender qué es el infinito y cómo aparece en matemáticas.  
+2. Explorar problemas divertidos como el Hotel Infinito de Hilbert.  
+3. Aprender a pensar de manera lógica y creativa al enfrentarse a ideas abstractas.  
+
+## 📅 Cronograma
+
+::: {.columns}
+::: {.column width="50%"}
+```{python}
+#| echo: false
+from great_tables import GT, md
+import pandas as pd
+
+data_dia1 = {
+    "Inicio": ["9:00", "10:00", "10:30", "11:00", "12:30", "14:00", "15:00", "15:15"],
+    "Término": ["10:00", "10:30", "11:00", "12:00", "14:00", "15:00", "15:15", "16:30"],
+    "Actividad": [
+        "Confirmación de Asistencia",
+        "Coffee o colación",
+        "Palabras de Bienvenida de Autoridades",
+        "Charla de apertura",
+        "Almuerzo",
+        "Taller Menor 1 / Taller Mayor 1",
+        "Recreo",
+        "Taller Menor 2 / Taller Mayor 2"
+    ]
+}
+
+df_dia1 = pd.DataFrame(data_dia1)
+
+(
+    GT(df_dia1)
+    .tab_header(
+        title="Cronograma - Día 1 (USM)",
+        subtitle="Actividades y horarios del lunes 6"
+    ).opt_stylize(style=2, color="blue")
+)
+```
+:::
+
+::: {.column width="50%"}
+```{python}
+#| echo: false
+from great_tables import GT, md
+import pandas as pd
+
+data_dia2 = {
+    "Inicio": ["10:00", "11:00", "11:15", "12:30", "14:00", "15:00"],
+    "Término": ["11:00", "11:15", "12:15", "14:00", "15:00", "15:30"],
+    "Actividad": [
+        "Taller Menor 3 / Taller Mayor 3",
+        "Coffee",
+        "Taller Creativo - Sesión 2",
+        "Almuerzo",
+        "Plenaria 2: Charla",
+        "Palabra de Cierre de Autoridades"
+    ]
+}
+
+df_dia2 = pd.DataFrame(data_dia2)
+
+(
+    GT(df_dia2)
+    .tab_header(
+        title="Cronograma - Día 2 (UChile)",
+        subtitle="Actividades y horarios del martes 7"
+    ).opt_stylize(style=2, color="red")
+)
+```
+:::
+:::
+
+
+::: {.columns}
+::: {.column width="50%"}
+```{python}
+#| echo: false
+from great_tables import GT, md
+import pandas as pd
+
+data_dia3 = {
+    "Inicio": ["10:00", "11:00", "11:15", "12:30", "14:00"],
+    "Término": ["11:00", "11:15", "12:15", "14:00", "15:30"],
+    "Actividad": [
+        "Taller Menor 1 / Taller Mayor 1",
+        "Colación",
+        "Taller Creativo - Sesión 1",
+        "Almuerzo",
+        "Expo Ingenimáticas (USM)"
+    ]
+}
+
+df_dia3 = pd.DataFrame(data_dia3)
+
+(
+    GT(df_dia3)
+    .tab_header(
+        title="Cronograma - Día 3 (USM)",
+        subtitle="Actividades y horarios del miércoles 8"
+    ).opt_stylize(style=2, color="blue")
+)
+```
+:::
+
+::: {.column width="50%"}
+```{python}
+#| echo: false
+from great_tables import GT, md
+import pandas as pd
+
+data_dia4 = {
+    "Inicio": ["10:00", "11:00", "11:15", "12:30", "14:00"],
+    "Término": ["11:00", "11:15", "12:30", "14:00", "15:30"],
+    "Actividad": [
+        "Taller Menor 3 / Taller Mayor 3",
+        "Colación",
+        "Taller Menor 4 / Taller Mayor 4",
+        "Almuerzo",
+        "Búsqueda del Tesoro"
+    ]
+}
+
+df_dia4 = pd.DataFrame(data_dia4)
+
+(
+    GT(df_dia4)
+    .tab_header(
+        title="Cronograma - Día 4 (UChile)",
+        subtitle="Actividades y horarios del jueves 9"
+    ).opt_stylize(style=2, color="red")
+)
+```
+:::
+:::
+
+
+## 🚀 Talleres
+
+**Taller Estudiantes**:
+
+ -  [Primeros Pasos](./material/talleres/intro.html)
+ -  [Matemáticas Divertidas](./material/talleres/taller_1.html)
+ -  [Más alla del Infinito](./material/talleres/taller_2.html)
+
+
+> 💡 **Consejo**: Para optimizar la experiencia en los talleres, se recomienda que cada estudiante disponga de su propio notebook, o que la actividad se realice en un entorno adecuado, como un laboratorio de computación.

@@ -1,0 +1,60 @@
+# Primeros Pasos
+
+## Programación
+
+<img src="../../images/programming.png" alt="Girl in a jacket" width="300" >
+
+
+Podríamos definir la esencia de la [programación](https://es.wikipedia.org/wiki/Programaci%C3%B3n) en una frase sencilla:
+
+> "Automatizar tareas para que sean ejecutadas por la computadora."
+
+La programación permite delegar actividades repetitivas y tediosas a las máquinas, liberando a los humanos para que se concentren en desafíos más estimulantes. Estos desafíos suelen requerir creatividad, pensamiento crítico y un enfoque subjetivo.
+
+> "Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora." — Donald Knuth
+
+
+
+## Python
+
+<img src="../../images/python.png" alt="Girl in a jacket" width="300" >
+
+[Python](https://es.wikipedia.org/wiki/Python) se ha convertido en uno de los lenguajes más populares gracias a factores claves como:
+
+| **Factor**                   | **Descripción**                                            | **Ejemplos**                            |
+|------------------------------|------------------------------------------------------------|-----------------------------------------|
+| **Claridad y simplicidad**   | Sintaxis fácil de leer y entender.                         | `if`, `for`, `def`, `class`             |
+| **Ecosistema de librerías**  | Amplia biblioteca estándar para diversas tareas.           | `NumPy`, `Pandas`, `Requests`           |
+| **Extensibilidad**           | Integración con otros lenguajes para mayor rendimiento.    | `Cython`, `Pybind11`                    |
+| **Comunidad activa**         | Soporte y recursos abundantes.                             | GitHub, Stack Overflow, PyPI            |
+| **Versatilidad**             | Útil en ciencia de datos, web, automatización y más.       | `Django`, `TensorFlow`, `Selenium`      |
+| **Portabilidad**             | Funciona en múltiples sistemas operativos.                 | Windows, macOS, Linux                   |
+
+
+
+
+## Uso de la Interfaz Web en este Taller
+
+En este taller, emplearemos una tecnología que emula la ejecución de Python en una página web. No requiere instalaciones y se puede usar desde cualquier dispositivo con internet, aunque es un entorno simulado.
+
+La interfaz incluye tres botones en la parte superior del contenedor de código: **ejecutar**, **reiniciar** y **copiar** el código. A continuación, se muestra una imagen que ilustra estos botones:
+
+<img src="../../images/botones.png" alt="Botones"  >
+
+
+### Ejemplo: 👋 Hola Mundo
+
+En el mundo de la programación, es tradicional comenzar aprendiendo a hacer que la computadora muestre el mensaje "Hola, Mundo" (o "Hello World").
+
+```{pyodide-python}
+print("Hola, Mundo")
+```
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+Intenta modificar el código anterior para que, en lugar de "Hola, Mundo", el mensaje incluya tu nombre. ¿Cómo cambiarías el saludo?
+:::
+
+```{pyodide-python}
+print("Hola, ...")
+```
+

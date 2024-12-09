@@ -1,0 +1,43 @@
+project:
+  type: book
+  output-dir: docs
+  
+book:
+  title: "🔢 Verano Matemático 2025" 
+  author: 
+    - "Francisco Alfaro & Valeska Canales" 
+  date: "01/06/2025"
+  favicon: "images/icon.png"
+  repo-url: "https://github.com/Seth-Nut/ws-usm_uchile-2025"
+
+  chapters:
+    - index.qmd
+    - part: 🚀 Talleres
+      chapters:
+        - material/talleres/intro.qmd
+        - material/talleres/taller_1.qmd
+        - material/talleres/taller_2.qmd
+    - part: 📜 Anexos
+      chapters:
+        - material/anexos/cierre_evento.qmd
+        - material/anexos/aprendizaje.qmd
+        - material/anexos/tecnologia.qmd
+        - material/anexos/autoria.qmd
+index:
+  qmd:
+lang: es
+
+format:
+  html:
+    theme: flatly
+    number-sections: false
+    toc: false
+    page-layout: full
+  epub:
+    cover-image: images/icon.png
+
+
+filters: 
+  - pyodide
+
+sin-enumeracion: true  # Esta línea es opcional para indicar que no se desea enumeración
