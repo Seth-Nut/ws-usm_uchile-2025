@@ -6,7 +6,7 @@
 
 <br>
 
-En este capítulo, vamos a explorar las fascinantes ideas del infinito en matemáticas, desde la cardinalidad de conjuntos hasta el famoso Hotel de Hilbert. Este taller combina historias, visualizaciones y ejercicios interactivos para aprender de manera entretenida y accesible.
+En este capítulo, vamos a explorar las fascinantes ideas del infinito en matemáticas, desde la cardinalidad de conjuntos hasta el famoso Hotel de $. Este taller combina historias, visualizaciones y ejercicios interactivos para aprender de manera entretenida y accesible.
 
 🎯 **Objetivos del Taller**
 
@@ -14,6 +14,8 @@ En este capítulo, vamos a explorar las fascinantes ideas del infinito en matem�
 - Diferenciar los tamaños de infinito mediante la cardinalidad de conjuntos.
 - Resolver problemas interactivos como el Hotel Infinito de Hilbert.
 - Visualizar ideas abstractas a través de gráficos y simulaciones.
+
+> 🔑 **Nota**:  Puedes acceder a la clase en modo presentación a través del siguiente enlace [Presentación: Infinity 2024](https://seth-nut.github.io/talks/infinity_2024/presentacion.html#/title-slide).
 
 
 ## Introducción al Infinito
@@ -68,7 +70,7 @@ En **cantidad** de elementos: ¿\|$\mathbb{N}| < |\mathbb{Z}| < |\mathbb{Q}|< |\
 5. **Observaciones de Galileo**: Paradojas que revelan propiedades inesperadas del infinito, como los cuadrados de números naturales.  
 6. **Cálculo de Newton y Leibniz**: Uso de límites e infinitesimales para describir procesos infinitos en matemáticas.  
 7. **Teoría de Conjuntos de Cantor**: Diferentes tamaños de infinito (contable y no contable) que revolucionaron las matemáticas.  
-8. **El Hotel de Hilbert**: Paradoja que muestra las propiedades contraintuitivas del infinito mediante un hotel con infinitas habitaciones.  
+8. **El Hotel de $**: Paradoja que muestra las propiedades contraintuitivas del infinito mediante un hotel con infinitas habitaciones.  
 9. **Aplicaciones Modernas**: Uso práctico del infinito en física, matemáticas y tecnología, como en la relatividad y el análisis.
 
 ## ¿Qué es contar?
@@ -145,7 +147,9 @@ El conjunto$A$tiene 5 elementos, cada uno asignado a un número único.
 ![](https://youtalkonline.com/wp-content/webp-express/webp-images/uploads/Tips-para-decir-correctamente-los-n%C3%BAmeros-en-ingles-y-su-pronunciaci%C3%B3n-725x408.jpg.webp){fig-align="center" width="400"}
 
 
-**Números Naturales** $\mathbb{N}$: Incluye $\{0, 1, 2, 3, \dots\}$, un conjunto infinito porque siempre se puede sumar 1 para obtener un número nuevo.
+**Números Naturales** $\mathbb{N}$:
+
+Incluye $\{0, 1, 2, 3, \dots\}$, un conjunto infinito porque siempre se puede sumar 1 para obtener un número nuevo.
 
 - **Subconjuntos Infinitos**:
   1. **Pares** ($\{2, 4, 6, \dots\}$): Números divisibles por 2, infinitos porque siempre puedes sumar 2.
@@ -196,3 +200,207 @@ Dentro de $\mathbb{Z}$, podemos encontrar infinitos más pequeños, pero el conj
 
 Esto significa que  $\color{black}{\boxed{ |\mathbb{N}| = |\mathbb{Z}| }}$, es decir, que los números naturales ($\mathbb{N}$) y los números enteros ($\mathbb{Z}$) tienen la misma cardinalidad. Por lo tanto, ambos son **infinitos contables**. 
 
+## Números Racionales
+
+![](../../images/fracciones.gif){fig-align="center" width="300"}
+
+**Números Racionales ($\mathbb{Q}$)**:  
+Incluye $\mathbb{Q} = \left\{ \frac{p}{q} \mid p, q \in \mathbb{Z}, q \neq 0 \right\}$, el conjunto de fracciones donde $p$ es un numerador y $q$ es un denominador distinto de cero. Este conjunto es infinito porque siempre se pueden generar nuevas fracciones al variar $p$ y $q$.
+
+
+- **Subconjuntos Infinitos de $\mathbb{Q}$**:  
+  1. **Fracciones Positivas** ($\mathbb{Q}^+$): Fracciones mayores que 0, por ejemplo,  
+     $$
+     \mathbb{Q}^+ = \left\{ \frac{1}{2}, \frac{2}{3}, \frac{3}{4}, \dots \right\}.
+     $$
+  2. **Fracciones Negativas** ($\mathbb{Q}^-$): Fracciones menores que 0, como  
+     $$
+     \mathbb{Q}^- = \left\{ -\frac{1}{2}, -\frac{2}{3}, -\frac{3}{4}, \dots \right\}.
+     $$
+  3. **Fracciones Reducidas**: Subconjunto infinito donde el numerador y el denominador son primos relativos (no comparten divisores). Por ejemplo:  
+     $$
+     \left\{ \frac{1}{2}, \frac{2}{3}, \frac{3}{5}, \dots \right\}.
+     $$
+  4. **Múltiplos de una fracción** ($k\mathbb{Q}$): Fracciones multiplicadas por un número fijo $k$. Por ejemplo, para $k = 2$:  
+     $$
+     2\mathbb{Q} = \left\{ \dots, -2, -1, 0, 1, 2, \dots \right\}.
+     $$
+
+
+## Contemos los números racionales
+
+<details>
+  <summary>Imagen 1</summary>
+  <img src="../../images/pa/racional_01.png" alt="Imagen 1" style="width:500px; display: block; margin: auto;">
+</details>
+
+<details>
+  <summary>Imagen 2</summary>
+  <img src="../../images/pa/racional_02.png" alt="Imagen 2" style="width:500px; display: block; margin: auto;">
+</details>
+
+<details>
+  <summary>Imagen 3</summary>
+  <img src="../../images/pa/racional_03.png" alt="Imagen 3" style="width:500px; display: block; margin: auto;">
+</details>
+
+Esto significa que $\color{black}{\boxed{ |\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}| }}$, es decir, los números naturales ($\mathbb{N}$), enteros ($\mathbb{Z}$) y racionales ($\mathbb{Q}$) tienen la misma cardinalidad. Aunque $\mathbb{Q}$ incluye fracciones además de enteros, es posible enumerarlos, por lo que todos son **infinitos contables**, representados por $\aleph_0$.
+
+### Números Reales
+
+![](../../images/irracional.jpg){fig-align="center" width="400"}
+
+**Números Reales ($\mathbb{R}$)**:  
+Incluye tanto números racionales ($\mathbb{Q}$) como irracionales ($\pi, \sqrt{2}, e, \dots$). Es un conjunto infinito, pero su cardinalidad es **mayor** que la de los números naturales ($\mathbb{N}$).
+
+- **Características**:
+  1. Contiene números racionales (fracciones) e irracionales (no expresables como fracciones).
+  2. Es un conjunto continuo, con infinitos números entre cualquier par de números reales.
+
+
+
+## Contemos los números irracionales
+
+![](../../images/cantor.jpg){fig-align="center" width="400"}
+
+
+En 1891, Georg Cantor demostró que no es posible enumerar todos los números reales en el intervalo $(0, 1)$ usando su **argumento de la diagonalización**. Esto significa que los números reales son un conjunto **infinito no contable**, un tipo de infinito más "grande" que el de los números naturales ($\mathbb{N}$).
+
+$$\color{black}{\boxed{\aleph_1 = |\mathbb{R}| > |\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}| = \aleph_0}}$$
+
+
+## Hotel de Hilbert
+
+![](../../images/hotel/hilbert_03.png){fig-align="center" width="400"}
+
+
+El Hotel de $ es una paradoja que muestra las propiedades del infinito: un hotel con infinitas habitaciones numeradas $1, 2, 3, \dots$, todas ocupadas, aún puede alojar más huéspedes. Al mover a cada huésped a la habitación siguiente, se libera espacio para nuevos huéspedes, incluso si llegan infinitos grupos. Ilustra que el infinito no se comporta como los números finitos.
+
+
+### 🐶 **Bienvenidos al Hotel de Vale**
+
+![](../../images/hotel/hotel2.png){fig-align="center" width="400"}
+
+El **Hotel de Vale** es un lugar especial con **infinitas habitaciones numeradas** diseñadas para perritos. Aunque todas las habitaciones estén ocupadas, siempre hay espacio para más, gracias a las propiedades únicas del infinito.
+
+✨ **¡Siempre hay espacio para uno más!**
+
+
+### **Caso 1: Llega un Nuevo Perrito**
+
+![](../../images/hotel/problema_01.jpg){fig-align="center" width="50%"}
+
+
+- **Situación**: Todas las habitaciones están ocupadas por un perrito, cada uno en una habitación numerada$1, 2, 3, \dots$.
+- **Problema**: Llega un nuevo perrito, pero el hotel parece lleno. 
+
+::: {.callout-tip collapse=true}
+### Solución
+
+Movemos a cada perrito de la habitación $n$ a la habitación $n+1$, liberando la habitación 1 para el nuevo huésped.
+
+![](../../images/hotel/caso_01.png){fig-align="center" width="80%"}
+:::
+
+**Resultado**: El nuevo perrito tiene su espacio sin necesidad de expulsar a nadie. Esto ilustra cómo los conjuntos infinitos permiten reorganizarse para hacer espacio.
+
+
+### **Caso 2: Llega un Bus con Infinitos Perritos**
+
+![](../../images/hotel/problema_02.jpeg){fig-align="center" width="50%"}
+
+
+- **Situación**: Todas las habitaciones están ocupadas, y ahora llega un bus con infinitos perritos numerados$1, 2, 3, \dots$.
+- **Problema**: Parece imposible acomodar a un grupo infinito de nuevos huéspedes en un hotel que ya está lleno.  
+
+::: {.callout-tip collapse=true}
+### Solución
+Movemos a cada perrito que ya está en la habitación$n$ a la habitación$2n$, liberando todas las habitaciones impares para los nuevos huéspedes.
+
+![](../../images/hotel/caso_02.png){fig-align="center" width="80%"}
+
+**Resultado**: Cada perrito del bus ocupa una habitación impar sin desalojar a los que ya estaban alojados.
+:::
+
+### **Caso 3: Llegan Infinitos Buses con Infinitos Perritos**
+
+![](../../images/hotel/problema_03.png){fig-align="center" width="50%"}
+
+
+- **Situación**: Ahora llegan infinitos buses, cada uno con infinitos perritos numerados$1, 2, 3, \dots$. Cada bus también está numerado$1, 2, 3, \dots$.
+- **Problema**: Acomodar un número infinito de grupos infinitos en un hotel aparentemente lleno.  
+
+::: {.callout-tip collapse=true}
+### Solución
+
+Para acomodar infinitos buses con infinitos perritos en el Hotel de Vale, usamos los **números primos** como base para asignar habitaciones de manera única y ordenada.
+
+![](../../images/hotel/caso_03.png){fig-align="center" width="60%"}
+
+
+**Cómo funciona la estrategia**
+
+1. **Habitaciones del hotel**: Cada habitación del hotel es identificada por un número entero único.
+2. **Asociación con números primos**:
+   - Las habitaciones del **hotel inicial** se asignan usando potencias de $2$:  
+     $$
+     \text{Habitación para el huésped del hotel: } 2^i, \quad i = 1, 2, 3, \dots
+     $$
+   - El **primer bus** usa potencias del primo siguiente, $3$:  
+     $$
+     \text{Habitación para el bus 1, asiento } j: 3^j, \quad j = 1, 2, 3, \dots
+     $$
+   - El **segundo bus** usa potencias de $5$:  
+     $$
+     \text{Habitación para el bus 2, asiento } j: 5^j, \quad j = 1, 2, 3, \dots
+     $$
+   - El **tercer bus** usa potencias de $7$:  
+     $$
+     \text{Habitación para el bus 3, asiento } j: 7^j, \quad j = 1, 2, 3, \dots
+     $$
+
+3. **Asignación general**:
+   - Para el bus $k$, los números del primo correspondiente $p_k$ se usan como base:
+     $$
+     \text{Habitación asignada: } p_k^j, \quad \text{donde } p_k \text{ es el } k\text{-ésimo primo, y } j \text{ el asiento.}
+     $$
+
+
+<details>
+  <summary>Imagen 1</summary>
+  <img src="../../images/hotel/caso_031.png" alt="Imagen 1" style="width:300px; display: block; margin: auto;">
+</details>
+
+<details>
+  <summary>Imagen 2</summary>
+  <img src="../../images/hotel/caso_032.png" alt="Imagen 2" style="width:300px; display: block; margin: auto;">
+</details>
+
+<details>
+  <summary>Imagen 3</summary>
+  <img src="../../images/hotel/caso_033.png" alt="Imagen 3" style="width:300px; display: block; margin: auto;">
+</details>
+
+**Resultado**: Incluso con infinitos buses y perritos, el hotel puede acomodar a todos gracias a la capacidad de reorganizar conjuntos infinitos.
+:::
+
+## Conclusiones
+
+
+- **🌌 El Infinito**:  
+  El concepto de infinito desafía nuestra intuición y rompe con las reglas que aplicamos a los números finitos. Su estudio abre la puerta a una comprensión más profunda de las matemáticas y el universo.
+
+- **📏 Cardinalidad**:  
+  No todos los infinitos son iguales. A través de la cardinalidad, aprendemos que hay diferentes "tamaños" de infinito, como el infinito contable ($|\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}|$) y el infinito no contable ($|\mathbb{R}|$).
+
+- **🐶 Hotel de Perritos**:  
+  Un ejemplo lúdico que muestra cómo reorganizar conjuntos infinitos para hacer espacio. Nos enseña que el infinito tiene propiedades sorprendentes y no intuitivas.
+
+- **🎓 Aplicaciones del infinito**:  
+  Desde la teoría de conjuntos y las bases del cálculo, hasta la física y la computación, el infinito juega un papel crucial en el desarrollo del conocimiento.
+
+- **🌟 Reflexión final**:  
+  Explorar el infinito nos enseña que las matemáticas no son solo números y operaciones; también son una herramienta para entender conceptos abstractos y expandir los límites del pensamiento humano.
+
+
+> 🔑 **Nota**: Para aquellos interesados en continuar su aprendizaje, pueden visitar [este sitio de recursos](https://seth-nut.github.io/resources/) para acceder a material educativo adicional.

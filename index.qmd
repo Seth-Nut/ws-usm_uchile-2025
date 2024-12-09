@@ -33,7 +33,7 @@ Iniciar a los estudiantes en la programación con Python, mostrando cómo resolv
 
 ### **Taller 2: Más Allá del Infinito**
 
-###### 🎯 **Objetivo del Taller**
+#### 🎯 **Objetivo del Taller**
 Motivar a los estudiantes a explorar el concepto de infinito a través de historias y actividades prácticas que despierten su curiosidad matemática.
 
 #### 📚 **Resultados de Aprendizaje Esperados**
