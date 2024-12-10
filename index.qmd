@@ -56,7 +56,7 @@ data_dia1 = {
     "Actividad": [
         "Confirmación de Asistencia",
         "Coffee o colación",
-        "Palabras de Bienvenida de Autoridades",
+        "Palabras de Bienvenida",
         "Charla de apertura",
         "Almuerzo",
         "Taller Menor 1 / Taller Mayor 1",
