@@ -29,7 +29,9 @@ lang: es
 
 format:
   html:
-    theme: flatly
+    theme:
+      light: [flatly, light.scss]
+      dark: [darkly, dark.scss]
     number-sections: false
     toc: false
     page-layout: full
