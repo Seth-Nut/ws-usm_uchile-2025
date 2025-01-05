@@ -6,7 +6,7 @@
 
 <br>
 
-En este capítulo, vamos a explorar las fascinantes ideas del infinito en matemáticas, desde la cardinalidad de conjuntos hasta el famoso Hotel de $. Este taller combina historias, visualizaciones y ejercicios interactivos para aprender de manera entretenida y accesible.
+En este capítulo, vamos a explorar las fascinantes ideas del infinito en matemáticas, desde la cardinalidad de conjuntos hasta el famoso Hotel de Hilbert. Este taller combina historias, visualizaciones y ejercicios interactivos para aprender de manera entretenida y accesible.
 
 🎯 **Objetivos del Taller**
 
@@ -70,7 +70,7 @@ En **cantidad** de elementos: ¿\|$\mathbb{N}| < |\mathbb{Z}| < |\mathbb{Q}|< |\
 5. **Observaciones de Galileo**: Paradojas que revelan propiedades inesperadas del infinito, como los cuadrados de números naturales.  
 6. **Cálculo de Newton y Leibniz**: Uso de límites e infinitesimales para describir procesos infinitos en matemáticas.  
 7. **Teoría de Conjuntos de Cantor**: Diferentes tamaños de infinito (contable y no contable) que revolucionaron las matemáticas.  
-8. **El Hotel de $**: Paradoja que muestra las propiedades contraintuitivas del infinito mediante un hotel con infinitas habitaciones.  
+8. **El Hotel de Hilbert**: Paradoja que muestra las propiedades contraintuitivas del infinito mediante un hotel con infinitas habitaciones.  
 9. **Aplicaciones Modernas**: Uso práctico del infinito en física, matemáticas y tecnología, como en la relatividad y el análisis.
 
 ## ¿Qué es contar?
@@ -274,7 +274,7 @@ $$\color{black}{\boxed{\aleph_1 = |\mathbb{R}| > |\mathbb{N}| = |\mathbb{Z}| = |
 ![](../../images/hotel/hilbert_03.png){fig-align="center" width="400"}
 
 
-El Hotel de $ es una paradoja que muestra las propiedades del infinito: un hotel con infinitas habitaciones numeradas $1, 2, 3, \dots$, todas ocupadas, aún puede alojar más huéspedes. Al mover a cada huésped a la habitación siguiente, se libera espacio para nuevos huéspedes, incluso si llegan infinitos grupos. Ilustra que el infinito no se comporta como los números finitos.
+El Hotel de Hilbert es una paradoja que muestra las propiedades del infinito: un hotel con infinitas habitaciones numeradas $1, 2, 3, \dots$, todas ocupadas, aún puede alojar más huéspedes. Al mover a cada huésped a la habitación siguiente, se libera espacio para nuevos huéspedes, incluso si llegan infinitos grupos. Ilustra que el infinito no se comporta como los números finitos.
 
 
 ### 🐶 **Bienvenidos al Hotel de Vale**
