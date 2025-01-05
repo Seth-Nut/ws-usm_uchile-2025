@@ -453,7 +453,7 @@ El código de ejemplo muestra cómo usar la función `es_bisiesto` para verifica
 
 Los estudiantes pueden modificar el valor de `anio` para comprobar si es un año bisiesto y explorar cómo funciona la función. A continuación, se presentan tres ejercicios de ejemplo:
 
-**Ejercicio 1: Verificar si el año 2024 es bisiesto**
+**Ejercicio 1: Verificar si el año 2025 es bisiesto**
 
 ::: {.panel-tabset}
 
@@ -468,7 +468,7 @@ print(f"{anio} es {resultado}")
 ## Solución
 
 ```{pyodide-python}
-anio = 2024
+anio = 2025
 resultado = es_bisiesto(anio)
 print(f"{anio} es {resultado}")
 ```
@@ -792,7 +792,7 @@ def es_primo(n):
     for i in range(2, n):
         if n % i == 0:
             return "número no primo"
-     return "número primo"
+    return "número primo"
 
 # Ejemplo de uso
 numero = 29
@@ -823,7 +823,7 @@ El código de ejemplo muestra cómo usar la función `es_primo` con un valor de 
 Los estudiantes pueden modificar el valor de `numero` para probar si es un número primo y explorar cómo funciona la función. A continuación, se presentan cuatro ejercicios de ejemplo:
 
 
-**Ejercicio 1: Verificar si 29 es un número primo**
+**Ejercicio 1: Verificar si 39 es un número primo**
 
 ::: {.panel-tabset}
 
@@ -838,7 +838,7 @@ print(f"{numero} es {resultado}")
 ## Solución
 
 ```{pyodide-python}
-numero = 29
+numero = 39
 resultado = es_primo(numero)
 print(f"{numero} es {resultado}")
 ```
@@ -998,7 +998,7 @@ El código de ejemplo muestra cómo usar la función `conjetura_de_collatz` con 
 Los estudiantes pueden modificar el valor de `numero` para explorar la secuencia generada por la Conjetura de Collatz y observar cómo funciona la función. A continuación, se presentan cuatro ejercicios de ejemplo:
 
 
-**Ejercicio 1: Generar la secuencia de Collatz para el número 6**
+**Ejercicio 1: Generar la secuencia de Collatz para el número 5**
 
 ::: {.panel-tabset}
 
@@ -1013,7 +1013,7 @@ print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 ## Solución
 
 ```{pyodide-python}
-numero = 6
+numero = 5
 secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
 print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 ```
