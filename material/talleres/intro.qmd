@@ -1,3 +1,8 @@
+---
+filters:
+   - naquiz
+---
+
 # Primeros Pasos
 
 ## Programación
@@ -58,3 +63,76 @@ Intenta modificar el código anterior para que, en lugar de "Hola, Mundo", el me
 print("Hola, ...")
 ```
 
+
+## ❓ Quiz
+
+::: {.panel-tabset}
+
+## Q1
+
+:::::{.question}
+¿Cuál es la definición más adecuada de programación?
+
+::::{.choices}
+
+:::{.choice}
+Un lenguaje que solo los expertos pueden usar
+:::
+
+:::{.choice}
+El proceso de crear hardware
+:::
+
+:::{.choice}
+Un conjunto de pasos para resolver problemas matemáticos únicamente
+:::
+
+:::{.choice .correct-choice}
+Automatizar tareas para que sean ejecutadas por una computadora
+:::
+
+:::{.button-clear title="Limpiar respuesta" button-class="btn btn-light btn-xs"}
+:::
+
+:::{.button-answer title="Mostrar respuesta" button-class="btn btn-info btn-xs"}
+**Automatizar tareas para que sean ejecutadas por una computadora**: La programación permite que las computadoras realicen tareas repetitivas, liberando a los humanos para enfocarse en problemas creativos y desafiantes.
+:::
+
+:::::
+:::::
+
+
+## Q2
+
+:::::{.question}
+¿Qué hace que Python sea un lenguaje de programación popular?
+
+::::{.choices}
+
+:::{.choice}
+Tiene una sintaxis compleja
+:::
+
+:::{.choice .correct-choice}
+Ofrece claridad y simplicidad en su sintaxis
+:::
+
+:::{.choice}
+Es útil solo para el desarrollo web
+:::
+
+:::{.choice}
+Tiene una comunidad limitada
+:::
+
+:::{.button-clear title="Limpiar respuesta" button-class="btn btn-light btn-xs"}
+:::
+
+:::{.button-answer title="Mostrar respuesta" button-class="btn btn-info btn-xs"}
+Python es popular por su **claridad y simplicidad en la sintaxis**, lo que lo hace fácil de aprender para principiantes y efectivo para programadores experimentados.
+:::
+
+:::::
+:::::
+
+:::

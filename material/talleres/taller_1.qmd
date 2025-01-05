@@ -71,13 +71,43 @@ Los estudiantes pueden modificar los valores de `celsius` para probar diferentes
 
 **Ejercicio 1: Convertir 0 Grados Celsius a Fahrenheit**
 
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+celsius = # escribir aquí el valor de celsius
+fahrenheit = celsius_a_fahrenheit(celsius)
+print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
+```
+
+## Solución
+
+
 ```{pyodide-python}
 celsius = 0
 fahrenheit = celsius_a_fahrenheit(celsius)
 print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
 ```
 
+:::
+
+
+
 **Ejercicio 2: Convertir -10 Grados Celsius a Fahrenheit**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+celsius = # escribir aquí el valor de celsius
+fahrenheit = celsius_a_fahrenheit(celsius)
+print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
+```
+
+## Solución
+
 
 ```{pyodide-python}
 celsius = -10
@@ -85,7 +115,22 @@ fahrenheit = celsius_a_fahrenheit(celsius)
 print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
 ```
 
+:::
+
 **Ejercicio 3: Convertir 100 Grados Celsius a Fahrenheit**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+celsius = # escribir aquí el valor de celsius
+fahrenheit = celsius_a_fahrenheit(celsius)
+print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
+```
+
+## Solución
+
 
 ```{pyodide-python}
 celsius = 100
@@ -93,6 +138,7 @@ fahrenheit = celsius_a_fahrenheit(celsius)
 print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
 ```
 
+:::
 
 
 ## 🏋️‍♂️ Cálculo del Índice de Masa Corporal (IMC)
@@ -149,6 +195,20 @@ Los estudiantes pueden modificar los valores de `peso` y `altura` para probar di
 
 **Ejercicio 1: Calcular el IMC para un peso de 80 kg y una altura de 1.80 m**
 
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+peso = # escribir aquí el valor de peso
+altura = # escribir aquí el valor de altura
+imc = calcular_imc(peso, altura)
+print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}")
+```
+
+## Solución
+
 ```{pyodide-python}
 peso = 80  # kg
 altura = 1.80  # m
@@ -156,7 +216,25 @@ imc = calcular_imc(peso, altura)
 print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}")
 ```
 
+:::
+
+
+
+
 **Ejercicio 2: Calcular el IMC para un peso de 60 kg y una altura de 1.60 m**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+peso = # escribir aquí el valor de peso
+altura = # escribir aquí el valor de altura
+imc = calcular_imc(peso, altura)
+print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}")
+```
+
+## Solución
 
 ```{pyodide-python}
 peso = 60  # kg
@@ -165,7 +243,22 @@ imc = calcular_imc(peso, altura)
 print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}")
 ```
 
+:::
+
 **Ejercicio 3: Calcular el IMC para un peso de 90 kg y una altura de 1.70 m**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+peso = # escribir aquí el valor de peso
+altura = # escribir aquí el valor de altura
+imc = calcular_imc(peso, altura)
+print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}")
+```
+
+## Solución
 
 ```{pyodide-python}
 peso = 90  # kg
@@ -174,6 +267,7 @@ imc = calcular_imc(peso, altura)
 print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}")
 ```
 
+:::
 
 
 ## 2️⃣ Verificación de Números Pares e Impares
@@ -231,13 +325,42 @@ Los estudiantes pueden modificar el valor de `numero` para probar si es par o im
 
 **Ejercicio 1: Verificar la paridad de 10**
 
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+resultado = verificar_paridad(numero)
+print(f"{numero} es {resultado}")
+```
+
+## Solución
+
+
 ```{pyodide-python}
 numero = 10
 resultado = verificar_paridad(numero)
 print(f"{numero} es {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 2: Verificar la paridad de 15**
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+resultado = verificar_paridad(numero)
+print(f"{numero} es {resultado}")
+```
+
+## Solución
+
 
 ```{pyodide-python}
 numero = 15
@@ -245,13 +368,30 @@ resultado = verificar_paridad(numero)
 print(f"{numero} es {resultado}")
 ```
 
+:::
+
 **Ejercicio 3: Verificar la paridad de 22**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+resultado = verificar_paridad(numero)
+print(f"{numero} es {resultado}")
+```
+
+## Solución
+
 
 ```{pyodide-python}
 numero = 22
 resultado = verificar_paridad(numero)
 print(f"{numero} es {resultado}")
 ```
+
+:::
 
 
 ## 📅 Verificación de Año Bisiesto
@@ -315,13 +455,41 @@ Los estudiantes pueden modificar el valor de `anio` para comprobar si es un año
 
 **Ejercicio 1: Verificar si el año 2024 es bisiesto**
 
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+anio = # escribir aquí el valor de anio
+resultado = es_bisiesto(anio)
+print(f"{anio} es {resultado}")
+```
+
+## Solución
+
 ```{pyodide-python}
 anio = 2024
 resultado = es_bisiesto(anio)
 print(f"{anio} es {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 2: Verificar si el año 1900 es bisiesto**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+anio = # escribir aquí el valor de anio
+resultado = es_bisiesto(anio)
+print(f"{anio} es {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 anio = 1900
@@ -329,7 +497,21 @@ resultado = es_bisiesto(anio)
 print(f"{anio} es {resultado}")
 ```
 
+:::
+
 **Ejercicio 3: Verificar si el año 2000 es bisiesto**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+anio = # escribir aquí el valor de anio
+resultado = es_bisiesto(anio)
+print(f"{anio} es {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 anio = 2000
@@ -337,6 +519,7 @@ resultado = es_bisiesto(anio)
 print(f"{anio} es {resultado}")
 ```
 
+:::
 
 
 ## 🧮 Calculadora Básica
@@ -411,7 +594,23 @@ Al ejecutar este ejemplo, se imprimirá `Para la operación 10 + 5, el resultado
 
 Los estudiantes pueden modificar los valores de `operacion`, `num1`, y `num2` para probar diferentes operaciones y explorar cómo funciona la función de calculadora. A continuación, se presentan seis ejercicios de ejemplo:
 
+
+
 **Ejercicio 1: Suma de 10 + 5**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+operacion = '+'
+num1 = # escribir aquí el valor de num1
+num2 = # escribir aquí el valor de num2
+resultado = calculadora(operacion, num1, num2)
+print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 operacion = '+'
@@ -421,7 +620,25 @@ resultado = calculadora(operacion, num1, num2)
 print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 2: Resta de 20 - 10**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+operacion = '-'
+num1 = # escribir aquí el valor de num1
+num2 = # escribir aquí el valor de num2
+resultado = calculadora(operacion, num1, num2)
+print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 operacion = '-'
@@ -431,7 +648,25 @@ resultado = calculadora(operacion, num1, num2)
 print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 3: Multiplicación de 3 * 4**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+operacion = '*'
+num1 = # escribir aquí el valor de num1
+num2 = # escribir aquí el valor de num2
+resultado = calculadora(operacion, num1, num2)
+print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 operacion = '*'
@@ -441,7 +676,25 @@ resultado = calculadora(operacion, num1, num2)
 print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 4: División de 10 / 2**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+operacion = '/'
+num1 = # escribir aquí el valor de num1
+num2 = # escribir aquí el valor de num2
+resultado = calculadora(operacion, num1, num2)
+print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 operacion = '/'
@@ -451,7 +704,25 @@ resultado = calculadora(operacion, num1, num2)
 print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 5: División de 10 / 0 (División por cero)**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+operacion = '/'
+num1 = # escribir aquí el valor de num1
+num2 = # escribir aquí el valor de num2
+resultado = calculadora(operacion, num1, num2)
+print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 operacion = '/'
@@ -461,7 +732,25 @@ resultado = calculadora(operacion, num1, num2)
 print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 6: Operación no válida "+-" con 5 y 7**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+operacion = '+-'
+num1 = # escribir aquí el valor de num1
+num2 = # escribir aquí el valor de num2
+resultado = calculadora(operacion, num1, num2)
+print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 operacion = '+-'
@@ -470,6 +759,8 @@ num2 = 7
 resultado = calculadora(operacion, num1, num2)
 print(f"Para la operación {num1} {operacion} {num2} ... {resultado}")
 ```
+
+:::
 
 
 
@@ -531,7 +822,20 @@ El código de ejemplo muestra cómo usar la función `es_primo` con un valor de 
 
 Los estudiantes pueden modificar el valor de `numero` para probar si es un número primo y explorar cómo funciona la función. A continuación, se presentan cuatro ejercicios de ejemplo:
 
+
 **Ejercicio 1: Verificar si 29 es un número primo**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+resultado = es_primo(numero)
+print(f"{numero} es {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 numero = 29
@@ -539,7 +843,23 @@ resultado = es_primo(numero)
 print(f"{numero} es {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 2: Verificar si 15 es un número primo**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+resultado = es_primo(numero)
+print(f"{numero} es {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 numero = 15
@@ -547,7 +867,23 @@ resultado = es_primo(numero)
 print(f"{numero} es {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 3: Verificar si 2 es un número primo**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+resultado = es_primo(numero)
+print(f"{numero} es {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 numero = 2
@@ -555,13 +891,32 @@ resultado = es_primo(numero)
 print(f"{numero} es {resultado}")
 ```
 
+:::
+
+
+
 **Ejercicio 4: Verificar si 17 es un número primo**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+resultado = es_primo(numero)
+print(f"{numero} es {resultado}")
+```
+
+## Solución
 
 ```{pyodide-python}
 numero = 17
 resultado = es_primo(numero)
 print(f"{numero} es {resultado}")
 ```
+
+:::
+
 
 
 ## 📜 Conjetura de Collatz
@@ -642,7 +997,20 @@ El código de ejemplo muestra cómo usar la función `conjetura_de_collatz` con 
 
 Los estudiantes pueden modificar el valor de `numero` para explorar la secuencia generada por la Conjetura de Collatz y observar cómo funciona la función. A continuación, se presentan cuatro ejercicios de ejemplo:
 
+
 **Ejercicio 1: Generar la secuencia de Collatz para el número 6**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
+print(f"La secuencia de Collatz para {numero} es: {secuencia}")
+```
+
+## Solución
 
 ```{pyodide-python}
 numero = 6
@@ -650,7 +1018,23 @@ secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
 print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 ```
 
+:::
+
+
+
 **Ejercicio 2: Generar la secuencia de Collatz para el número 7**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
+print(f"La secuencia de Collatz para {numero} es: {secuencia}")
+```
+
+## Solución
 
 ```{pyodide-python}
 numero = 7
@@ -658,7 +1042,23 @@ secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
 print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 ```
 
+:::
+
+
+
 **Ejercicio 3: Generar la secuencia de Collatz para el número 15**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
+print(f"La secuencia de Collatz para {numero} es: {secuencia}")
+```
+
+## Solución
 
 ```{pyodide-python}
 numero = 15
@@ -666,13 +1066,34 @@ secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
 print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 ```
 
+:::
+
+
+
 **Ejercicio 4: Generar la secuencia de Collatz para el número 27**
+
+::: {.panel-tabset}
+
+## Ejercicio
+
+```{pyodide-python}
+numero = # escribir aquí el valor de numero
+secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
+print(f"La secuencia de Collatz para {numero} es: {secuencia}")
+```
+
+## Solución
 
 ```{pyodide-python}
 numero = 27
 secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
 print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 ```
+
+:::
+
+
+
 
 
 ## Conclusiones
