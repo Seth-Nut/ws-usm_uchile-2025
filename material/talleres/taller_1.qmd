@@ -102,7 +102,7 @@ print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
 
 ```{pyodide-python}
 celsius = # escribir aquí el valor de celsius
-fahrenheit = celsius_a_fahrenheit(celsius)
+fahrenheit = # escribir aquí el valor de la funcion
 print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
 ```
 
@@ -125,7 +125,7 @@ print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
 
 ```{pyodide-python}
 celsius = # escribir aquí el valor de celsius
-fahrenheit = celsius_a_fahrenheit(celsius)
+fahrenheit = # escribir aquí el valor de la funcion
 print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
 ```
 
@@ -230,7 +230,7 @@ print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f
 ```{pyodide-python}
 peso = # escribir aquí el valor de peso
 altura = # escribir aquí el valor de altura
-imc = calcular_imc(peso, altura)
+imc = # escribir aquí el valor de la funcion
 print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}")
 ```
 
@@ -254,7 +254,7 @@ print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f
 ```{pyodide-python}
 peso = # escribir aquí el valor de peso
 altura = # escribir aquí el valor de altura
-imc = calcular_imc(peso, altura)
+imc = # escribir aquí el valor de la funcion
 print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}")
 ```
 
@@ -349,13 +349,14 @@ print(f"{numero} es {resultado}")
 
 
 **Ejercicio 2: Verificar la paridad de 15**
+
 ::: {.panel-tabset}
 
 ## Ejercicio
 
 ```{pyodide-python}
 numero = # escribir aquí el valor de numero
-resultado = verificar_paridad(numero)
+resultado = # escribir aquí el valor de la funcion
 print(f"{numero} es {resultado}")
 ```
 
@@ -378,7 +379,7 @@ print(f"{numero} es {resultado}")
 
 ```{pyodide-python}
 numero = # escribir aquí el valor de numero
-resultado = verificar_paridad(numero)
+resultado = # escribir aquí el valor de la funcion
 print(f"{numero} es {resultado}")
 ```
 
@@ -485,7 +486,7 @@ print(f"{anio} es {resultado}")
 
 ```{pyodide-python}
 anio = # escribir aquí el valor de anio
-resultado = es_bisiesto(anio)
+resultado = # escribir aquí el valor de la funcion
 print(f"{anio} es {resultado}")
 ```
 
@@ -507,7 +508,7 @@ print(f"{anio} es {resultado}")
 
 ```{pyodide-python}
 anio = # escribir aquí el valor de anio
-resultado = es_bisiesto(anio)
+resultado = # escribir aquí el valor de la funcion
 print(f"{anio} es {resultado}")
 ```
 
@@ -855,7 +856,7 @@ print(f"{numero} es {resultado}")
 
 ```{pyodide-python}
 numero = # escribir aquí el valor de numero
-resultado = es_primo(numero)
+resultado = # escribir aquí el valor de la funcion
 print(f"{numero} es {resultado}")
 ```
 
@@ -879,7 +880,7 @@ print(f"{numero} es {resultado}")
 
 ```{pyodide-python}
 numero = # escribir aquí el valor de numero
-resultado = es_primo(numero)
+resultado = # escribir aquí el valor de la funcion
 print(f"{numero} es {resultado}")
 ```
 
@@ -903,7 +904,7 @@ print(f"{numero} es {resultado}")
 
 ```{pyodide-python}
 numero = # escribir aquí el valor de numero
-resultado = es_primo(numero)
+resultado = # escribir aquí el valor de la funcion
 print(f"{numero} es {resultado}")
 ```
 
@@ -1030,7 +1031,7 @@ print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 
 ```{pyodide-python}
 numero = # escribir aquí el valor de numero
-secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
+secuencia = # escribir aquí el valor de la funcion
 print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 ```
 
@@ -1054,7 +1055,7 @@ print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 
 ```{pyodide-python}
 numero = # escribir aquí el valor de numero
-secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
+secuencia = # escribir aquí el valor de la funcion
 print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 ```
 
@@ -1078,7 +1079,7 @@ print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 
 ```{pyodide-python}
 numero = # escribir aquí el valor de numero
-secuencia = " -> ".join(map(str, conjetura_de_collatz(numero)))
+secuencia = # escribir aquí el valor de la funcion
 print(f"La secuencia de Collatz para {numero} es: {secuencia}")
 ```
 
