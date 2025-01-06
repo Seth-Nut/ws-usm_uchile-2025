@@ -9,6 +9,22 @@ Te invitamos a formar parte de un campamento único que combina aprendizaje, cre
 <img src="./images/logo_escuela.png" width="300">
 </center>
 
+::: {.callout-tip collapse="true"}
+
+## Información Importante
+
+Página del sitio web oficial:
+
+- [🔗 seth-nut.github.io/ws-usm_uchile-2025](https://seth-nut.github.io/ws-usm_uchile-2025/)
+
+O, si lo prefieres, utiliza tu dispositivo móvil para escanear el código QR:
+
+<div style="text-align: center; margin-top: 10px;">
+<img src="./images/qr_page.png" alt="QR para página oficial" width="250" style="border: 1px solid #ccc; border-radius: 8px; padding: 5px;">
+</div>
+
+:::
+
 ## 🤔 ¿De qué se trata?
 
 Esta escuela de verano busca inspirar a estudiantes entre 7° básico y 3° medio (cursados el 2024) a través de talleres presenciales y remotos que combinan matemática, creatividad y contenido audiovisual. Inspirado en el exitoso formato de “Te lo cuento en 5 minutos”, los participantes crearán videos, infografías y collages que serán difundidos en redes sociales y sitios web.
