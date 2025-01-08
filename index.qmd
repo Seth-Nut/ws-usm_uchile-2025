@@ -57,6 +57,16 @@ Motivar a los estudiantes a explorar el concepto de infinito a través de histor
 2. Explorar problemas divertidos como el Hotel Infinito de Hilbert.  
 3. Aprender a pensar de manera lógica y creativa al enfrentarse a ideas abstractas.  
 
+### **Taller 3: Python en Ciencia de Datos**
+
+#### 🎯 **Objetivo del Taller**
+Introducir a los estudiantes en la manipulación y visualización de datos con Python.
+
+#### 📚 **Resultados de Aprendizaje Esperados**
+1. Conocer librerías clave como **pandas** y **matplotlib**.
+2. Aprender a procesar y explorar datos.
+3. Crear gráficos para interpretar y comunicar datos.
+
 ## 📅 Cronograma
 
 ::: {.columns}
@@ -196,6 +206,7 @@ df_dia4 = pd.DataFrame(data_dia4)
  -  [Primeros Pasos](./material/talleres/intro.html)
  -  [Matemáticas Divertidas](./material/talleres/taller_1.html)
  -  [Más alla del Infinito](./material/talleres/taller_2.html)
+ -  [Python en Ciencia de Datos](./material/talleres/taller_3.html)
 
 
 > 💡 **Consejo**: Para optimizar la experiencia en los talleres, se recomienda que cada estudiante disponga de su propio notebook, o que la actividad se realice en un entorno adecuado, como un laboratorio de computación.

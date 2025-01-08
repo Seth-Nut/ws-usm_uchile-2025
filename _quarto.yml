@@ -17,6 +17,7 @@ book:
         - material/talleres/intro.qmd
         - material/talleres/taller_1.qmd
         - material/talleres/taller_2.qmd
+        - material/talleres/taller_3.qmd
     - part: 📜 Anexos
       chapters:
         - material/anexos/cierre_evento.qmd
