@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Primeros Pasos – 🔢 Verano Matemático 2025</title>
+<title>Python en Ciencia de Datos – 🔢 Verano Matemático 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../material/talleres/taller_1.html" rel="next">
-<link href="../../index.html" rel="prev">
+<link href="../../material/anexos/cierre_evento.html" rel="next">
+<link href="../../material/talleres/taller_2.html" rel="prev">
 <link href="../../images/icon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -44,7 +44,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-25feabc38eae4ff4fc079412fe1562e7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-1e94b4a3856b200b0e1e10804d1f9723.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/quarto-contrib/alpine-3.12/buttons.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -234,7 +233,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"print(\"Hola, Mundo\")","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"print(\"Hola, ...\")","id":2,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qpyodideCellDetails = [{"code":"import pandas as pd\npd.set_option('display.max_columns', None)\n\n# Cargar el conjunto de datos de Pokémon\nurl = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'\npokemon_data = pd.read_csv(url)\n\n# Mostrar las primeras filas del conjunto de datos\npokemon_data.head()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Mostrar la información del conjunto de datos\npokemon_data.info()","id":2,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Mostrar la descripción estadística del conjunto de datos\npokemon_data.describe()","id":3,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"import matplotlib.pyplot as plt\n\n# Contar la cantidad de Pokémon por tipo\npokemon_por_tipo = pokemon_data['Type 1'].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(11, 6))\npokemon_por_tipo.plot(kind='bar', color='#66c2a5')\nplt.title('Cantidad de Pokémon por Tipo', fontsize=14)\nplt.xlabel('Tipo', fontsize=12)\nplt.ylabel('Cantidad', fontsize=12)\nplt.xticks(rotation=45)\nplt.grid()\nplt.show()","id":4,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Calcular el promedio de estadísticas por tipo\npromedio_estadisticas = pokemon_data.groupby('Type 1')[['HP', 'Attack', 'Defense', 'Speed']].mean()\n\n# Crear un gráfico de barras apiladas\ncolors = ['#fc8d62', '#66c2a5', '#8da0cb', '#e78ac3']\npromedio_estadisticas.plot(kind='bar', stacked=True, figsize=(11, 6), color=colors)\nplt.title('Promedio de Estadísticas por Tipo de Pokémon', fontsize=14)\nplt.xlabel('Tipo', fontsize=12)\nplt.ylabel('Promedio de Estadísticas', fontsize=12)\nplt.legend(title='Estadísticas', loc='upper left')\nplt.grid()\nplt.show()","id":5,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Crear un gráfico de dispersión de ataque vs defensa\nplt.figure(figsize=(11, 6))\nplt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], color='#8da0cb', alpha=0.7, edgecolor='k', linewidth=0.5)\nplt.title('Ataque vs Defensa de Pokémon', fontsize=14)\nplt.xlabel('Ataque', fontsize=12)\nplt.ylabel('Defensa', fontsize=12)\nplt.grid()\nplt.show()","id":6,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Obtener los 10 Pokémon con mayor ataque\ntop_ataque = pokemon_data.nlargest(10, 'Attack')[['Name', 'Type 1', 'Attack', 'Defense', 'HP']]\n\n# Mostrar la tabla\ntop_ataque","id":7,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Obtener los 10 Pokémon con mayor defensa\ntop_defensa = pokemon_data.nlargest(10, 'Defense')[['Name', 'Type 1', 'Defense', 'Attack', 'HP']]\n\n# Mostrar la tabla\ntop_defensa","id":8,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
 </script>
@@ -437,7 +436,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../material/talleres/intro.html">🚀 Talleres</a></li><li class="breadcrumb-item"><a href="../../material/talleres/intro.html"><span class="chapter-title">Primeros Pasos</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../material/talleres/intro.html">🚀 Talleres</a></li><li class="breadcrumb-item"><a href="../../material/talleres/taller_3.html"><span class="chapter-title">Python en Ciencia de Datos</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -482,7 +481,7 @@ globalThis._qpyodideGetInstance = function() {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../material/talleres/intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Primeros Pasos</span></a>
+  <a href="../../material/talleres/intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Primeros Pasos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -497,7 +496,7 @@ globalThis._qpyodideGetInstance = function() {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../material/talleres/taller_3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Python en Ciencia de Datos</span></a>
+  <a href="../../material/talleres/taller_3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Python en Ciencia de Datos</span></a>
   </div>
 </li>
       </ul>
@@ -552,9 +551,9 @@ globalThis._qpyodideGetInstance = function() {
   });
 </script>
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../material/talleres/intro.html">🚀 Talleres</a></li><li class="breadcrumb-item"><a href="../../material/talleres/intro.html"><span class="chapter-title">Primeros Pasos</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../material/talleres/intro.html">🚀 Talleres</a></li><li class="breadcrumb-item"><a href="../../material/talleres/taller_3.html"><span class="chapter-title">Python en Ciencia de Datos</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Primeros Pasos</span></h1>
+<h1 class="title"><span class="chapter-title">Python en Ciencia de Datos</span></h1>
 </div>
 
 
@@ -571,79 +570,18 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<section id="programación" class="level2">
-<h2 class="anchored" data-anchor-id="programación">Programación</h2>
-<p><img src="../../images/programming.png" alt="Girl in a jacket" width="300"></p>
-<p>Podríamos definir la esencia de la <a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n">programación</a> en una frase sencilla:</p>
-<blockquote class="blockquote">
-<p>“Automatizar tareas para que sean ejecutadas por la computadora.”</p>
-</blockquote>
-<p>La programación permite delegar actividades repetitivas y tediosas a las máquinas, liberando a los humanos para que se concentren en desafíos más estimulantes. Estos desafíos suelen requerir creatividad, pensamiento crítico y un enfoque subjetivo.</p>
-<blockquote class="blockquote">
-<p>“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” — Donald Knuth</p>
-</blockquote>
-</section>
-<section id="python" class="level2">
-<h2 class="anchored" data-anchor-id="python">Python</h2>
-<p><img src="../../images/python.png" alt="Girl in a jacket" width="300"></p>
-<p><a href="https://es.wikipedia.org/wiki/Python">Python</a> se ha convertido en uno de los lenguajes más populares gracias a factores claves como:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 22%">
-<col style="width: 45%">
-<col style="width: 31%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Factor</strong></th>
-<th><strong>Descripción</strong></th>
-<th><strong>Ejemplos</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Claridad y simplicidad</strong></td>
-<td>Sintaxis fácil de leer y entender.</td>
-<td><code>if</code>, <code>for</code>, <code>def</code>, <code>class</code></td>
-</tr>
-<tr class="even">
-<td><strong>Ecosistema de librerías</strong></td>
-<td>Amplia biblioteca estándar para diversas tareas.</td>
-<td><code>NumPy</code>, <code>Pandas</code>, <code>Requests</code></td>
-</tr>
-<tr class="odd">
-<td><strong>Extensibilidad</strong></td>
-<td>Integración con otros lenguajes para mayor rendimiento.</td>
-<td><code>Cython</code>, <code>Pybind11</code></td>
-</tr>
-<tr class="even">
-<td><strong>Comunidad activa</strong></td>
-<td>Soporte y recursos abundantes.</td>
-<td>GitHub, Stack Overflow, PyPI</td>
-</tr>
-<tr class="odd">
-<td><strong>Versatilidad</strong></td>
-<td>Útil en ciencia de datos, web, automatización y más.</td>
-<td><code>Django</code>, <code>TensorFlow</code>, <code>Selenium</code></td>
-</tr>
-<tr class="even">
-<td><strong>Portabilidad</strong></td>
-<td>Funciona en múltiples sistemas operativos.</td>
-<td>Windows, macOS, Linux</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="uso-de-la-interfaz-web-en-este-taller" class="level2">
-<h2 class="anchored" data-anchor-id="uso-de-la-interfaz-web-en-este-taller">Uso de la Interfaz Web en este Taller</h2>
-<p>En este taller, emplearemos una tecnología que emula la ejecución de Python en una página web. No requiere instalaciones y se puede usar desde cualquier dispositivo con internet, aunque es un entorno simulado.</p>
-<p>La interfaz incluye tres botones en la parte superior del contenedor de código: <strong>ejecutar</strong>, <strong>reiniciar</strong> y <strong>copiar</strong> el código. A continuación, se muestra una imagen que ilustra estos botones:</p>
-<p><img src="../../images/botones.png" alt="Botones"></p>
-<section id="ejemplo-hola-mundo" class="level3">
-<h3 class="anchored" data-anchor-id="ejemplo-hola-mundo">Ejemplo: 👋 Hola Mundo</h3>
-<p>En el mundo de la programación, es tradicional comenzar aprendiendo a hacer que la computadora muestre el mensaje “Hola, Mundo” (o “Hello World”).</p>
-<div id="qpyodide-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>🎯 <strong>Objetivos del capítulo</strong></p>
+<ul>
+<li>Explorar y analizar un conjunto de datos de Pokémon utilizando Python.</li>
+<li>Aprender técnicas básicas de exploración y visualización de datos.</li>
+<li>Comprender cómo aplicar análisis de datos para obtener información relevante.</li>
+<li>Desarrollar habilidades prácticas para visualizar datos de manera efectiva.</li>
+</ul>
+<section id="exploración-y-visualización-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="exploración-y-visualización-de-datos">📊 Exploración y Visualización de Datos</h2>
+<p>Primero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon. Este ejercicio es excelente para practicar la manipulación de datos y la visualización con las bibliotecas <code>pandas</code> y <code>matplotlib</code>.</p>
+<section id="cargar-el-conjunto-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="cargar-el-conjunto-de-datos">Cargar el Conjunto de Datos</h3>
 <div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -656,99 +594,198 @@ Desafío:
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Intenta modificar el código anterior para que, en lugar de “Hola, Mundo”, el mensaje incluya tu nombre. ¿Cómo cambiarías el saludo?</p>
+<p>El objetivo de este ejercicio es cargar un conjunto de datos de Pokémon desde una URL y mostrar las primeras filas para obtener una vista previa de los datos.</p>
 </div>
 </div>
 </div>
+<ol type="1">
+<li><strong>Importar bibliotecas</strong>: Usar <code>pandas</code> para manipulación de datos.</li>
+<li><strong>Cargar datos</strong>: Leer el conjunto de datos desde una URL.</li>
+<li><strong>Mostrar datos</strong>: Mostrar las primeras filas del conjunto de datos.</li>
+</ol>
+<div id="qpyodide-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="descripción-del-conjunto-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="descripción-del-conjunto-de-datos">Descripción del Conjunto de Datos</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es obtener una visión general de la estructura del conjunto de datos para comprender mejor el tipo y la cantidad de datos disponibles.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Descripción de la estructura del conjunto de datos</strong>: Usar <code>info</code> para obtener información sobre el tipo de datos y valores no nulos del conjunto de datos.</li>
+</ol>
 <div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
+<section id="estadísticas-del-conjunto-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="estadísticas-del-conjunto-de-datos">Estadísticas del Conjunto de Datos</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es obtener una visión general de las estadísticas del conjunto de datos para comprender mejor la distribución de los valores.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Descripción estadística</strong>: Usar <code>describe</code> para obtener estadísticas básicas del conjunto de datos.</li>
+</ol>
+<div id="qpyodide-insertion-location-3"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="quiz" class="level2">
-<h2 class="anchored" data-anchor-id="quiz">❓ Quiz</h2>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Q2</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div class="question">
-<p>¿Cuál es la definición más adecuada de programación?</p>
-<div class="choices">
-<div x-data="{ answer: '' , clear() { this.answer = '' }}">
+</section>
+<section id="análisis-y-visualización-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-y-visualización-de-datos">📈 Análisis y Visualización de Datos</h2>
+<section id="tipos-de-pokémon" class="level3">
+<h3 class="anchored" data-anchor-id="tipos-de-pokémon">Tipos de Pokémon</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es contar cuántos Pokémon de cada tipo hay en el conjunto de datos y visualizar estos datos en un gráfico de barras.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Contar Pokémon por tipo</strong>: Usar <code>value_counts</code> para contar los Pokémon por tipo.</li>
+<li><strong>Crear gráfico de barras</strong>: Usar <code>matplotlib</code> para visualizar la cantidad de Pokémon por tipo.</li>
+</ol>
+<div id="qpyodide-insertion-location-4"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="promedio-de-estadísticas-por-tipo" class="level3">
+<h3 class="anchored" data-anchor-id="promedio-de-estadísticas-por-tipo">Promedio de Estadísticas por Tipo</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es calcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo en un gráfico de barras apiladas.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Calcular promedios</strong>: Usar <code>groupby</code> y <code>mean</code> para calcular el promedio de estadísticas por tipo.</li>
+<li><strong>Gráfico de barras apiladas</strong>: Usar <code>plot</code> para visualizar los promedios.</li>
+</ol>
+<div id="qpyodide-insertion-location-5"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="estadísticas-de-ataque-y-defensa" class="level3">
+<h3 class="anchored" data-anchor-id="estadísticas-de-ataque-y-defensa">Estadísticas de Ataque y Defensa</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es comparar las estadísticas de ataque y defensa de los Pokémon en un gráfico de dispersión.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Gráfico de dispersión</strong>: Usar <code>scatter</code> para visualizar la relación entre ataque y defensa.</li>
+</ol>
+<div id="qpyodide-insertion-location-6"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+</section>
+<section id="tablas-y-gráficos-interactivos" class="level2">
+<h2 class="anchored" data-anchor-id="tablas-y-gráficos-interactivos">📊 Tablas y Gráficos Interactivos</h2>
+<section id="tabla-de-pokémon-con-mayor-ataque" class="level3">
+<h3 class="anchored" data-anchor-id="tabla-de-pokémon-con-mayor-ataque">Tabla de Pokémon con Mayor Ataque</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es mostrar los 10 Pokémon con la mayor estadística de ataque.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Top 10 en ataque</strong>: Usar <code>nlargest</code> para obtener los Pokémon con mayor ataque.</li>
+<li><strong>Mostrar tabla</strong>: Mostrar una tabla con los resultados.</li>
+</ol>
+<div id="qpyodide-insertion-location-7"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="tabla-de-pokémon-con-mayor-defensa" class="level3">
+<h3 class="anchored" data-anchor-id="tabla-de-pokémon-con-mayor-defensa">Tabla de Pokémon con Mayor Defensa</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es mostrar los 10 Pokémon con la mayor estadística de defensa.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Top 10 en defensa</strong>: Usar <code>nlargest</code> para obtener los Pokémon con mayor defensa.</li>
+<li><strong>Mostrar tabla</strong>: Mostrar una tabla con los resultados.</li>
+</ol>
+<div id="qpyodide-insertion-location-8"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no1"> <span id="no1" x-show="answer == $el.id" class="badge">✗</span>Un lenguaje que solo los expertos pueden usar</p><p></p>
-</div>
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no2"> <span id="no2" x-show="answer == $el.id" class="badge">✗</span>El proceso de crear hardware</p><p></p>
-</div>
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no3"> <span id="no3" x-show="answer == $el.id" class="badge">✗</span>Un conjunto de pasos para resolver problemas matemáticos únicamente</p><p></p>
-</div>
-<div class="choice correct-choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="correct"> <span id="correct" x-show="answer == $el.id" class="badge">✓</span>Automatizar tareas para que sean ejecutadas por una computadora</p><p></p>
-</div>
-<div class="button-clear" title="Limpiar respuesta" data-button-class="btn btn-light btn-xs">
-<button x-on:click="clear()" class="btn btn-light btn-xs">Limpiar respuesta</button>
 
-
-
-</div>
-<div class="button-answer" title="Mostrar respuesta" data-button-class="btn btn-info btn-xs">
-<div x-data="{ open: false }">
-<button x-on:click="open = ! open" class="btn btn-info btn-xs">Mostrar respuesta</button>
-<div x-show="open" x-transition.duration.200ms="" x-on:click.outside="open = false" class="card card-body border-info">
-<p><strong>Automatizar tareas para que sean ejecutadas por una computadora</strong>: La programación permite que las computadoras realicen tareas repetitivas, liberando a los humanos para enfocarse en problemas creativos y desafiantes.</p>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-</div>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="question">
-<p>¿Qué hace que Python sea un lenguaje de programación popular?</p>
-<div class="choices">
-<div x-data="{ answer: '' , clear() { this.answer = '' }}">
-
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no1"> <span id="no1" x-show="answer == $el.id" class="badge">✗</span>Tiene una sintaxis compleja</p><p></p>
-</div>
-<div class="choice correct-choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="correct"> <span id="correct" x-show="answer == $el.id" class="badge">✓</span>Ofrece claridad y simplicidad en su sintaxis</p><p></p>
-</div>
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no3"> <span id="no3" x-show="answer == $el.id" class="badge">✗</span>Es útil solo para el desarrollo web</p><p></p>
-</div>
-<div class="choice">
-<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no4"> <span id="no4" x-show="answer == $el.id" class="badge">✗</span>Tiene una comunidad limitada</p><p></p>
-</div>
-<div class="button-clear" title="Limpiar respuesta" data-button-class="btn btn-light btn-xs">
-<button x-on:click="clear()" class="btn btn-light btn-xs">Limpiar respuesta</button>
-
-
-
-</div>
-<div class="button-answer" title="Mostrar respuesta" data-button-class="btn btn-info btn-xs">
-<div x-data="{ open: false }">
-<button x-on:click="open = ! open" class="btn btn-info btn-xs">Mostrar respuesta</button>
-<div x-show="open" x-transition.duration.200ms="" x-on:click.outside="open = false" class="card card-body border-info">
-<p>Python es popular por su <strong>claridad y simplicidad en la sintaxis</strong>, lo que lo hace fácil de aprender para principiantes y efectivo para programadores experimentados.</p>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1315,13 +1352,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../../index.html" class="pagination-link" aria-label="🏠 Home">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">🏠 Home</span></span>
+      <a href="../../material/talleres/taller_2.html" class="pagination-link" aria-label="Más Allá del Infinito">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Más Allá del Infinito</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../material/talleres/taller_1.html" class="pagination-link" aria-label="Matemáticas Divertidas">
-        <span class="nav-page-text"><span class="chapter-title">Matemáticas Divertidas</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../material/anexos/cierre_evento.html" class="pagination-link" aria-label="Cierre Evento">
+        <span class="nav-page-text"><span class="chapter-title">Cierre Evento</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1866,5 +1903,4 @@ qpyodideCellDetails.map(
 
 
 
-<script src="../../site_libs/quarto-contrib/alpine-3.12/alpine@3.12.min.js"></script>
 </body></html>

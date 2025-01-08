@@ -24,7 +24,7 @@
     "href": "index.html#actividades",
     "title": "🔢 Verano Matemático 2025",
     "section": "🍎 Actividades",
-    "text": "🍎 Actividades\n\nTaller 1: Matemáticas Divertidas con Python\n\n🎯 Objetivo del Taller\nIniciar a los estudiantes en la programación con Python, mostrando cómo resolver problemas matemáticos de forma entretenida y visual.\n\n\n📚 Resultados de Aprendizaje Esperados\n\nConocer los conceptos básicos de programación en Python.\n\nResolver desafíos matemáticos sencillos, como conversiones de unidades y cálculos básicos.\n\nDivertirse experimentando con el código para aprender matemáticas de una forma nueva y creativa.\n\n\n\n\nTaller 2: Más Allá del Infinito\n\n🎯 Objetivo del Taller\nMotivar a los estudiantes a explorar el concepto de infinito a través de historias y actividades prácticas que despierten su curiosidad matemática.\n\n\n📚 Resultados de Aprendizaje Esperados\n\nComprender qué es el infinito y cómo aparece en matemáticas.\n\nExplorar problemas divertidos como el Hotel Infinito de Hilbert.\n\nAprender a pensar de manera lógica y creativa al enfrentarse a ideas abstractas.",
+    "text": "🍎 Actividades\n\nTaller 1: Matemáticas Divertidas con Python\n\n🎯 Objetivo del Taller\nIniciar a los estudiantes en la programación con Python, mostrando cómo resolver problemas matemáticos de forma entretenida y visual.\n\n\n📚 Resultados de Aprendizaje Esperados\n\nConocer los conceptos básicos de programación en Python.\n\nResolver desafíos matemáticos sencillos, como conversiones de unidades y cálculos básicos.\n\nDivertirse experimentando con el código para aprender matemáticas de una forma nueva y creativa.\n\n\n\n\nTaller 2: Más Allá del Infinito\n\n🎯 Objetivo del Taller\nMotivar a los estudiantes a explorar el concepto de infinito a través de historias y actividades prácticas que despierten su curiosidad matemática.\n\n\n📚 Resultados de Aprendizaje Esperados\n\nComprender qué es el infinito y cómo aparece en matemáticas.\n\nExplorar problemas divertidos como el Hotel Infinito de Hilbert.\n\nAprender a pensar de manera lógica y creativa al enfrentarse a ideas abstractas.\n\n\n\n\nTaller 3: Python en Ciencia de Datos\n\n🎯 Objetivo del Taller\nIntroducir a los estudiantes en la manipulación y visualización de datos con Python.\n\n\n📚 Resultados de Aprendizaje Esperados\n\nConocer librerías clave como pandas y matplotlib.\nAprender a procesar y explorar datos.\nCrear gráficos para interpretar y comunicar datos.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
@@ -44,7 +44,7 @@
     "href": "index.html#talleres",
     "title": "🔢 Verano Matemático 2025",
     "section": "🚀 Talleres",
-    "text": "🚀 Talleres\nTaller Estudiantes:\n\nPrimeros Pasos\nMatemáticas Divertidas\nMás alla del Infinito\n\n\n💡 Consejo: Para optimizar la experiencia en los talleres, se recomienda que cada estudiante disponga de su propio notebook, o que la actividad se realice en un entorno adecuado, como un laboratorio de computación.",
+    "text": "🚀 Talleres\nTaller Estudiantes:\n\nPrimeros Pasos\nMatemáticas Divertidas\nMás alla del Infinito\nPython en Ciencia de Datos\n\n\n💡 Consejo: Para optimizar la experiencia en los talleres, se recomienda que cada estudiante disponga de su propio notebook, o que la actividad se realice en un entorno adecuado, como un laboratorio de computación.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Home</span>"
     ]
@@ -358,6 +358,50 @@
     ]
   },
   {
+    "objectID": "material/talleres/taller_3.html",
+    "href": "material/talleres/taller_3.html",
+    "title": "Python en Ciencia de Datos",
+    "section": "",
+    "text": "📊 Exploración y Visualización de Datos\n🎯 Objetivos del capítulo\nPrimero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon. Este ejercicio es excelente para practicar la manipulación de datos y la visualización con las bibliotecas pandas y matplotlib.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_3.html#exploración-y-visualización-de-datos",
+    "href": "material/talleres/taller_3.html#exploración-y-visualización-de-datos",
+    "title": "Python en Ciencia de Datos",
+    "section": "",
+    "text": "Cargar el Conjunto de Datos\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es cargar un conjunto de datos de Pokémon desde una URL y mostrar las primeras filas para obtener una vista previa de los datos.\n\n\n\n\nImportar bibliotecas: Usar pandas para manipulación de datos.\nCargar datos: Leer el conjunto de datos desde una URL.\nMostrar datos: Mostrar las primeras filas del conjunto de datos.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nDescripción del Conjunto de Datos\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es obtener una visión general de la estructura del conjunto de datos para comprender mejor el tipo y la cantidad de datos disponibles.\n\n\n\n\nDescripción de la estructura del conjunto de datos: Usar info para obtener información sobre el tipo de datos y valores no nulos del conjunto de datos.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas del Conjunto de Datos\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es obtener una visión general de las estadísticas del conjunto de datos para comprender mejor la distribución de los valores.\n\n\n\n\nDescripción estadística: Usar describe para obtener estadísticas básicas del conjunto de datos.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_3.html#análisis-y-visualización-de-datos",
+    "href": "material/talleres/taller_3.html#análisis-y-visualización-de-datos",
+    "title": "Python en Ciencia de Datos",
+    "section": "📈 Análisis y Visualización de Datos",
+    "text": "📈 Análisis y Visualización de Datos\n\nTipos de Pokémon\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es contar cuántos Pokémon de cada tipo hay en el conjunto de datos y visualizar estos datos en un gráfico de barras.\n\n\n\n\nContar Pokémon por tipo: Usar value_counts para contar los Pokémon por tipo.\nCrear gráfico de barras: Usar matplotlib para visualizar la cantidad de Pokémon por tipo.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPromedio de Estadísticas por Tipo\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es calcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo en un gráfico de barras apiladas.\n\n\n\n\nCalcular promedios: Usar groupby y mean para calcular el promedio de estadísticas por tipo.\nGráfico de barras apiladas: Usar plot para visualizar los promedios.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas de Ataque y Defensa\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es comparar las estadísticas de ataque y defensa de los Pokémon en un gráfico de dispersión.\n\n\n\n\nGráfico de dispersión: Usar scatter para visualizar la relación entre ataque y defensa.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
+    ]
+  },
+  {
+    "objectID": "material/talleres/taller_3.html#tablas-y-gráficos-interactivos",
+    "href": "material/talleres/taller_3.html#tablas-y-gráficos-interactivos",
+    "title": "Python en Ciencia de Datos",
+    "section": "📊 Tablas y Gráficos Interactivos",
+    "text": "📊 Tablas y Gráficos Interactivos\n\nTabla de Pokémon con Mayor Ataque\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es mostrar los 10 Pokémon con la mayor estadística de ataque.\n\n\n\n\nTop 10 en ataque: Usar nlargest para obtener los Pokémon con mayor ataque.\nMostrar tabla: Mostrar una tabla con los resultados.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nTabla de Pokémon con Mayor Defensa\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\nEl objetivo de este ejercicio es mostrar los 10 Pokémon con la mayor estadística de defensa.\n\n\n\n\nTop 10 en defensa: Usar nlargest para obtener los Pokémon con mayor defensa.\nMostrar tabla: Mostrar una tabla con los resultados.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "🚀 Talleres",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
+    ]
+  },
+  {
     "objectID": "material/anexos/cierre_evento.html",
     "href": "material/anexos/cierre_evento.html",
     "title": "Cierre Evento",
@@ -365,7 +409,7 @@
     "text": "🎯 Retroalimentación\nNos encantaría conocer tu opinión sobre esta experiencia y saber en qué aspectos podemos mejorar. Te agradeceríamos mucho que tomaras unos minutos para completar la siguiente encuesta:\n\n \n\nhttps://forms.gle/MjQFihE1RiKzVgid9\n\n\n\n\n\nCódigo para sorteo\nPara sortear algunos premios utilizaremos, por supuesto, un código de python. Usaremos la función random.randint(a, b) que retorna un número entero aleatorio \\(N\\) que cumpla la condición \\(a &lt;= N &lt;= b\\).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Cierre Evento</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Cierre Evento</span>"
     ]
   },
   {
@@ -376,7 +420,7 @@
     "text": "Recursos Recomendados",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seguir Aprendiendo</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Seguir Aprendiendo</span>"
     ]
   },
   {
@@ -387,7 +431,7 @@
     "text": "Cursos en Línea\n\nCoursera: “Python for Everybody” de la Universidad de Míchigan.\nedX: “Programming for Everybody” del MIT.\nUdemy: “Complete Python Bootcamp” y otros cursos desde nivel básico a avanzado.\n\nPlataformas Interactivas\n\nCodecademy: Curso interactivo de Python.\nDataCamp: Cursos especializados en Python para ciencia de datos.\n\nDocumentación y Recursos Comunitarios\n\nDocumentación Oficial de Python: Guía completa para aprender Python, desde lo básico hasta temas avanzados.\nPython.org Tutorial: Introducción para principiantes, cubriendo los fundamentos del lenguaje.\nStack Overflow: Comunidad para resolver dudas y aprender de problemas reales.\nGitHub: Explora proyectos de código abierto en Python.\n\nLibros Recomendados\n\n“Automate the Boring Stuff with Python” de Al Sweigart.\n“Python Crash Course” de Eric Matthes.\n“Fluent Python” de Luciano Ramalho.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seguir Aprendiendo</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Seguir Aprendiendo</span>"
     ]
   },
   {
@@ -398,7 +442,7 @@
     "text": "Consejos para Aprender Python\n\nPractica Regularmente: Escribe código diariamente, aunque sea por poco tiempo.\nParticipa en Proyectos Reales: Contribuye a proyectos en GitHub o crea los tuyos.\nResuelve Ejercicios y Retos: Utiliza plataformas como LeetCode, HackerRank, y CodeWars.\nÚnete a Comunidades: Participa en r/learnpython en Reddit y Python Discord.\nMantente Actualizado: Sigue blogs, webinars y conferencias para aprender sobre nuevas versiones y mejores prácticas.\n\nCon estos recursos y consejos, estarás bien encaminado para dominar Python y aplicarlo con éxito en tus proyectos y en tu carrera profesional.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seguir Aprendiendo</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Seguir Aprendiendo</span>"
     ]
   },
   {
@@ -409,7 +453,7 @@
     "text": "Esta página fue creada con quarto y la extensión quarto-pyodide\n\n\n\nFiltro quarto-pyodide en acción\n\n\nPuedes ver el ejemplo completo de la extensión en acción aquí.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Sobre la página</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sobre la página</span>"
     ]
   },
   {
@@ -420,7 +464,7 @@
     "text": "Este material ha sido creado por Francisco Alfaro y Valeska Canales para apoyar a los estudiantes del Verano Matemático 2025 en su aprendizaje de Python y matemáticas.\nNuestro objetivo es motivar a los estudiantes a explorar la programación y las matemáticas de manera divertida y accesible, a través de herramientas y recursos que faciliten la comprensión y el interés en estos temas. Ofrecemos ejemplos prácticos, problemas entretenidos y actividades interactivas que ayudan a desarrollar habilidades en Python y a profundizar en conceptos matemáticos aplicables a su formación.\nPara más información, estamos disponibles en los correos electrónicos: francisco.alfaro.496@gmail.com, valeska.canales.p@gmail.com.",
     "crumbs": [
       "📜 Anexos",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Autoría</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Autoría</span>"
     ]
   }
 ]
